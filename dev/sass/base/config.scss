@@ -1,0 +1,112 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities";
+
+@import "fonts";
+@import "variables";
+
+// mixins
+@mixin content {
+	position: absolute;
+	left: 0;
+
+	display: block;
+
+	content: "";
+}
+
+@mixin clear {
+	&:after {
+		display: table;
+		clear: both;
+
+		content: "";
+	}
+}
+
+input,
+select,
+textarea {
+	@include input-placeholder {
+		font-style: italic;
+	}
+	&:focus {
+		color: #333;
+		outline: none;
+	}
+}
+
+select {
+	border: 1px solid #e5e5e5;
+}
+
+body {
+	background: url(../images/bg.png);
+
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: $df-font-size;
+	font-weight: 400;
+}
+
+.wrapper {
+	width: $df-width-wrapper;
+	margin: auto;
+}
+
+.container {
+	position: relative;
+
+	margin-top: 30px;
+
+	background-color: #fff;
+
+	@extend .wrapper;
+	@include align-items(flex-start);
+	@include justify-content(space-between);
+	@include flex-direction(row);
+	@include display-flex(flex);
+	@include box-shadow(0 0 6px $df-box-shadow);
+	@include border-radius($df-border-radius);
+}
+
+.content {
+	width: 740px;
+	padding: 25px;
+}
+
+a {
+	color: $df-link-color;
+
+	font-size: 14px;
+	line-height: 17px;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.title {
+	text-transform: uppercase;
+
+	color: $df-brown-light-color;
+
+	font-family: "Panton Black", Arial;
+}
+
+h1 {
+	color: $df-orange-color;
+
+	font-size: 18px;
+	line-height: 20px;
+
+	@extend .title;
+}
+
+h2 {
+	margin-bottom: 10px;
+
+	color: $df-orange-color;
+
+	font-family: "Panton Bold", Arial;
+	font-size: 17px;
+	font-weight: 700;
+}

@@ -1,0 +1,213 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$s-calculator-name: 's-calculator';
+$s-calculator-x: 138px;
+$s-calculator-y: 77px;
+$s-calculator-offset-x: -138px;
+$s-calculator-offset-y: -77px;
+$s-calculator-width: 21px;
+$s-calculator-height: 26px;
+$s-calculator-total-width: 320px;
+$s-calculator-total-height: 128px;
+$s-calculator-image: 'sprite.png';
+$s-calculator: 138px 77px -138px -77px 21px 26px 320px 128px 'sprite.png' 's-calculator';
+$s-category-icon-name: 's-category-icon';
+$s-category-icon-x: 242px;
+$s-category-icon-y: 77px;
+$s-category-icon-offset-x: -242px;
+$s-category-icon-offset-y: -77px;
+$s-category-icon-width: 12px;
+$s-category-icon-height: 4px;
+$s-category-icon-total-width: 320px;
+$s-category-icon-total-height: 128px;
+$s-category-icon-image: 'sprite.png';
+$s-category-icon: 242px 77px -242px -77px 12px 4px 320px 128px 'sprite.png' 's-category-icon';
+$s-last-articles-name: 's-last-articles';
+$s-last-articles-x: 0px;
+$s-last-articles-y: 114px;
+$s-last-articles-offset-x: 0px;
+$s-last-articles-offset-y: -114px;
+$s-last-articles-width: 12px;
+$s-last-articles-height: 14px;
+$s-last-articles-total-width: 320px;
+$s-last-articles-total-height: 128px;
+$s-last-articles-image: 'sprite.png';
+$s-last-articles: 0px 114px 0px -114px 12px 14px 320px 128px 'sprite.png' 's-last-articles';
+$s-logo-header-name: 's-logo-header';
+$s-logo-header-x: 0px;
+$s-logo-header-y: 0px;
+$s-logo-header-offset-x: 0px;
+$s-logo-header-offset-y: 0px;
+$s-logo-header-width: 320px;
+$s-logo-header-height: 72px;
+$s-logo-header-total-width: 320px;
+$s-logo-header-total-height: 128px;
+$s-logo-header-image: 'sprite.png';
+$s-logo-header: 0px 0px 0px 0px 320px 72px 320px 128px 'sprite.png' 's-logo-header';
+$s-pagelink-name: 's-pagelink';
+$s-pagelink-x: 17px;
+$s-pagelink-y: 114px;
+$s-pagelink-offset-x: -17px;
+$s-pagelink-offset-y: -114px;
+$s-pagelink-width: 10px;
+$s-pagelink-height: 10px;
+$s-pagelink-total-width: 320px;
+$s-pagelink-total-height: 128px;
+$s-pagelink-image: 'sprite.png';
+$s-pagelink: 17px 114px -17px -114px 10px 10px 320px 128px 'sprite.png' 's-pagelink';
+$s-popular-articles-name: 's-popular-articles';
+$s-popular-articles-x: 205px;
+$s-popular-articles-y: 77px;
+$s-popular-articles-offset-x: -205px;
+$s-popular-articles-offset-y: -77px;
+$s-popular-articles-width: 13px;
+$s-popular-articles-height: 13px;
+$s-popular-articles-total-width: 320px;
+$s-popular-articles-total-height: 128px;
+$s-popular-articles-image: 'sprite.png';
+$s-popular-articles: 205px 77px -205px -77px 13px 13px 320px 128px 'sprite.png' 's-popular-articles';
+$s-search-icon-name: 's-search-icon';
+$s-search-icon-x: 164px;
+$s-search-icon-y: 77px;
+$s-search-icon-offset-x: -164px;
+$s-search-icon-offset-y: -77px;
+$s-search-icon-width: 16px;
+$s-search-icon-height: 16px;
+$s-search-icon-total-width: 320px;
+$s-search-icon-total-height: 128px;
+$s-search-icon-image: 'sprite.png';
+$s-search-icon: 164px 77px -164px -77px 16px 16px 320px 128px 'sprite.png' 's-search-icon';
+$s-social-fb-name: 's-social-fb';
+$s-social-fb-x: 74px;
+$s-social-fb-y: 77px;
+$s-social-fb-offset-x: -74px;
+$s-social-fb-offset-y: -77px;
+$s-social-fb-width: 32px;
+$s-social-fb-height: 32px;
+$s-social-fb-total-width: 320px;
+$s-social-fb-total-height: 128px;
+$s-social-fb-image: 'sprite.png';
+$s-social-fb: 74px 77px -74px -77px 32px 32px 320px 128px 'sprite.png' 's-social-fb';
+$s-social-gp-name: 's-social-gp';
+$s-social-gp-x: 37px;
+$s-social-gp-y: 77px;
+$s-social-gp-offset-x: -37px;
+$s-social-gp-offset-y: -77px;
+$s-social-gp-width: 32px;
+$s-social-gp-height: 32px;
+$s-social-gp-total-width: 320px;
+$s-social-gp-total-height: 128px;
+$s-social-gp-image: 'sprite.png';
+$s-social-gp: 37px 77px -37px -77px 32px 32px 320px 128px 'sprite.png' 's-social-gp';
+$s-social-vk-name: 's-social-vk';
+$s-social-vk-x: 0px;
+$s-social-vk-y: 77px;
+$s-social-vk-offset-x: 0px;
+$s-social-vk-offset-y: -77px;
+$s-social-vk-width: 32px;
+$s-social-vk-height: 32px;
+$s-social-vk-total-width: 320px;
+$s-social-vk-total-height: 128px;
+$s-social-vk-image: 'sprite.png';
+$s-social-vk: 0px 77px 0px -77px 32px 32px 320px 128px 'sprite.png' 's-social-vk';
+$s-ul-li-name: 's-ul-li';
+$s-ul-li-x: 185px;
+$s-ul-li-y: 77px;
+$s-ul-li-offset-x: -185px;
+$s-ul-li-offset-y: -77px;
+$s-ul-li-width: 15px;
+$s-ul-li-height: 15px;
+$s-ul-li-total-width: 320px;
+$s-ul-li-total-height: 128px;
+$s-ul-li-image: 'sprite.png';
+$s-ul-li: 185px 77px -185px -77px 15px 15px 320px 128px 'sprite.png' 's-ul-li';
+$s-user-questions-name: 's-user-questions';
+$s-user-questions-x: 111px;
+$s-user-questions-y: 77px;
+$s-user-questions-offset-x: -111px;
+$s-user-questions-offset-y: -77px;
+$s-user-questions-width: 22px;
+$s-user-questions-height: 26px;
+$s-user-questions-total-width: 320px;
+$s-user-questions-total-height: 128px;
+$s-user-questions-image: 'sprite.png';
+$s-user-questions: 111px 77px -111px -77px 22px 26px 320px 128px 'sprite.png' 's-user-questions';
+$s-views-name: 's-views';
+$s-views-x: 223px;
+$s-views-y: 77px;
+$s-views-offset-x: -223px;
+$s-views-offset-y: -77px;
+$s-views-width: 14px;
+$s-views-height: 8px;
+$s-views-total-width: 320px;
+$s-views-total-height: 128px;
+$s-views-image: 'sprite.png';
+$s-views: 223px 77px -223px -77px 14px 8px 320px 128px 'sprite.png' 's-views';
+$spritesheet-width: 320px;
+$spritesheet-height: 128px;
+$spritesheet-image: 'sprite.png';
+$spritesheet-sprites: $s-calculator $s-category-icon $s-last-articles $s-logo-header $s-pagelink $s-popular-articles $s-search-icon $s-social-fb $s-social-gp $s-social-vk $s-ul-li $s-user-questions $s-views;
+$spritesheet: 320px 128px 'sprite.png' $spritesheet-sprites;
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

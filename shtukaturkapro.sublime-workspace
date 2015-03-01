@@ -1,0 +1,1012 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"cal",
+				"calculators"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"side",
+				"sidebar-advertise"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mate",
+				"materials-block"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"t",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"s",
+				"solid"
+			],
+			[
+				"ca",
+				"cabinet-welcome__sub--add-photo"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"cab",
+				"cabinet-welcome"
+			],
+			[
+				"ac",
+				"active-services-content__sub--extend"
+			],
+			[
+				"a",
+				"active-services-content__sub"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"coun",
+				"count_keys"
+			],
+			[
+				"sub",
+				"substr_count"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"item",
+				"item_key"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"margn",
+				"margin-top"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"re",
+				"reviews-list"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"df-",
+				"df-dark-purple-color"
+			],
+			[
+				"border-bott",
+				"border-bottom-color"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"fi",
+				"firm-card-tabs"
+			],
+			[
+				"border-",
+				"border-color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"df",
+				"df-dark-purple-color"
+			],
+			[
+				"so",
+				"sort-by__element"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"fn",
+				"font-size"
+			],
+			[
+				"lis",
+				"list__block"
+			],
+			[
+				"ad",
+				"advertise-content"
+			],
+			[
+				"adve",
+				"advertise"
+			],
+			[
+				"adver",
+				"advertise-content"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"magin",
+				"margin-top"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"cata",
+				"catalog"
+			],
+			[
+				"this",
+				"this_parent"
+			],
+			[
+				"ea",
+				"each	$.each()"
+			],
+			[
+				"slide",
+				"slideDown	.slideDown()"
+			],
+			[
+				"toggle",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"catal",
+				"catalog__sub"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"ha",
+				"hasClass	.hasClass()"
+			],
+			[
+				"sli",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"catalog",
+				"catalog"
+			],
+			[
+				"pre",
+				"prepend	.prepend()"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"borde",
+				"border-color"
+			],
+			[
+				"brde",
+				"border-color"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"sl",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"fo",
+				"float"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"imp",
+				"important"
+			],
+			[
+				"sc",
+				"scroll	.scroll()"
+			],
+			[
+				"scro",
+				"scroll	.scroll()"
+			],
+			[
+				"menu",
+				"menu-icon"
+			],
+			[
+				"ani",
+				"animate	.animate()"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"men",
+				"menu-icon"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"backgo",
+				"background"
+			],
+			[
+				"he",
+				"height	Attr"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"com",
+				"community-block"
+			],
+			[
+				"cio",
+				"community-fulllist"
+			],
+			[
+				"new",
+				"new-album-form__info"
+			],
+			[
+				"al",
+				"album--private"
+			],
+			[
+				"borde-",
+				"border-bottom"
+			],
+			[
+				"comme",
+				"comments-form"
+			],
+			[
+				"slid",
+				"slideUp	.slideUp()"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"each",
+				"each	.each()"
+			],
+			[
+				"table",
+				"table-content"
+			],
+			[
+				"tab",
+				"table_size"
+			],
+			[
+				"cel",
+				"cellspacing	Attr"
+			],
+			[
+				"backgroun-",
+				"background-repeat"
+			],
+			[
+				"inpu",
+				"input	input - radio"
+			],
+			[
+				"name",
+				"name--online"
+			],
+			[
+				"form",
+				"form-search"
+			],
+			[
+				"user",
+				"user-profile-wall-menu__item"
+			],
+			[
+				"use",
+				"user-profile-dnevnik-article"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"li",
+				"links--blue"
+			],
+			[
+				"link",
+				"links--blue"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"l",
+				"links"
+			],
+			[
+				"repe",
+				"repeat-x"
+			],
+			[
+				"pis",
+				"position"
+			],
+			[
+				"margni",
+				"margin-top"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"i",
+				"!important  (value)"
+			],
+			[
+				"co",
+				"community-entries"
+			],
+			[
+				"c",
+				"community-entries"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"magi",
+				"margin-top"
+			],
+			[
+				"input",
+				"input	input - text"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"brea",
+				"breadcrumbs"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 316.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"new",
+				"Tasks: New"
+			],
+			[
+				":",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 526.0,
+		"history":
+		[
+			"cd e:/git/svadbavo-2015/",
+			"update",
+			"export LC_NUMERIC=C",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"view.settings().get('syntax')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Git/shtukaturkapro/dev/sass/base/config.scss",
+		"/E/Git/shtukaturkapro/dev/sass/screen.scss",
+		"/E/Git/shtukaturkapro/dev/template/main.jade",
+		"/E/Git/shtukaturkapro/dev/template/blocks/user-questions.jade",
+		"/E/Git/shtukaturkapro/dev/sass/partials/sidebar.scss",
+		"/E/Git/shtukaturkapro/dev/template/blocks/vk-group.jade",
+		"/E/Git/shtukaturkapro/dev/sass/partials/header.scss",
+		"/E/Git/shtukaturkapro/dev/template/blocks/sidebar-advertise.jade",
+		"/E/Git/shtukaturkapro/dev/sass/blocks/advertise.scss",
+		"/E/Git/shtukaturkapro/dev/sass/blocks/main-categories.scss",
+		"/E/Git/shtukaturkapro/dev/sass/base/_config.scss",
+		"/E/Git/shtukaturkapro/dev/sass/base/_variables.scss",
+		"/E/Git/shtukaturkapro/dev/sass/partials/_header.scss",
+		"/E/Git/shtukaturkapro/dev/template/blocks/seo.jade",
+		"/E/Git/shtukaturkapro/dev/sass/blocks/seo.scss",
+		"/E/Git/shtukaturkapro/dev/sass/base/_fonts.scss",
+		"/E/Git/shtukaturkapro/dev/template/blocks/materials.jade",
+		"/E/Git/shtukaturkapro/dev/sass/blocks/seo",
+		"/E/Git/shtukaturkapro/dev/template/blocks/main-categories.jade",
+		"/E/Git/shtukaturkapro/dev/sass/blocks/materials.scss",
+		"/E/Git/shtukaturkapro/dev/template/partials/head.jade",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_catalog-firms-inside-categories.scss",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_sections-of-the-magazine.scss",
+		"/E/Git/svadbavo-2015/dev/sass/base/_config.scss",
+		"/E/Git/shtukaturkapro/dev/template/partials/header.jade",
+		"/C/WebServers/home/web.rsya.ru/www/wp-content/themes/shtukatur/header.php",
+		"/E/Git/shtukaturkapro/dev/sass/helpers/_sprite.scss",
+		"/E/Git/svadbavo-2015/dev/template/partials/header.jade",
+		"/E/Git/svadbavo-2015/dev/template/partials/head.jade",
+		"/E/Git/svadbavo-2015/dev/template/main.jade",
+		"/E/Git/shtukaturkapro/package.json",
+		"/C/Users/Руслан/Desktop/fancybox-for-wordpress.3.0.6/fancybox-for-wordpress/js/admin.js",
+		"/C/Users/Руслан/Desktop/fancybox-for-wordpress.3.0.6/fancybox-for-wordpress/admin.php",
+		"/C/functions.php",
+		"/C/Users/Руслан/Desktop/fancybox-for-wordpress.3.0.6/fancybox-for-wordpress/fancybox.php",
+		"/E/Git/svadbavo-2015/gulpfile.js",
+		"/E/Git/svadbavo-2015/package.json",
+		"/E/Git/svadbavo-2015/dev/sass/partials/_top.scss",
+		"/E/Git/svadbavo-2015/dev/sass/base/_variables.scss",
+		"/E/Git/svadbavo-2015/dev/sass/screen.scss",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_cabinet-firm-information.scss",
+		"/E/Git/svadbavo-2015/dev/template/cabinet-firm-information.jade",
+		"/E/Git/svadbavo-2015/dev/template/blocks/cabinet-firm-information.jade",
+		"/E/Git/svadbavo-2015/dev/template/partials/sidebar.jade",
+		"/E/Git/svadbavo-2015/dev/sass/partials/_sidebar.scss",
+		"/E/Git/svadbavo-2015/dev/template/partials/sidebar-cabinet.jade",
+		"/E/Git/svadbavo-2015/dev/template/firm-card.jade",
+		"/E/Git/svadbavo-2015/dev/sass/partials/_sidebar-cabinet.scss",
+		"/E/Git/svadbavo-2015/dev/sass/partials/_header.scss",
+		"/E/Git/svadbavo-2015/dev/template/cabinet.jade",
+		"/E/Git/svadbavo-2015/dev/js/app.js",
+		"/C/WebServers/home/web.myadmin.ru/www/javascripts/app.js",
+		"/C/WebServers/home/web.myadmin.ru/www/include/footer.php",
+		"/C/WebServers/home/web.myadmin.ru/www/count-text_result.php",
+		"/C/WebServers/home/web.myadmin.ru/www/stylesheets/sb-admin.css",
+		"/C/WebServers/home/web.myadmin.ru/www/count-text.php",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/tovar.htm",
+		"/D/general-template.php",
+		"/D/header.php",
+		"/C/Users/Руслан/Desktop/Профнастил, металлопрофиль, профлист - все кровельные материалы для дома и дачи здесь..html",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/otpravka_zakaza_form.htm",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/style.css",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/style.min.css",
+		"/C/WebServers/home/web.myadmin.ru/www/include/header.php",
+		"/C/WebServers/home/web.myadmin.ru/www/stylesheets/styles.css",
+		"/C/WebServers/home/web.myadmin.ru/www/temp/index.php",
+		"/C/WebServers/home/web.myadmin.ru/www/index.php",
+		"/E/Git/svadbavo-2015/dev/template/blocks/firm-card-top.jade",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_firm-card-top.scss",
+		"/E/Git/svadbavo-2015/dev/template/blocks/firm-card-tabs.jade",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_firm-card-tabs.scss",
+		"/E/Git/svadbavo-2015/dev/template/catalog-firms.jade",
+		"/E/Git/svadbavo-2015/dev/template/blocks/catalog-firms-inside-categories.jade",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_catalog-firms-list.scss",
+		"/E/Git/svadbavo-2015/dev/template/blocks/tabs-firm.jade",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_wedding-magazine.scss",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/catalog.htm",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/tex.htm",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/korzina.htm",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/index.htm",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/include/slider.js",
+		"/E/Git/svadbavo-2015/dev/template/blocks/sections-of-the-magazine.jade",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_filter.scss",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_seo-text.scss",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_slider.scss",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_tabs-firm.scss",
+		"/E/Git/svadbavo-2015/dev/sass/advertise/_advertise-content.scss",
+		"/E/Git/svadbavo-2015/dev/sass/advertise/_advertise-under-header.scss",
+		"/E/Git/svadbavo-2015/dev/template/blocks/seo-text.jade",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/catalog-firms-list.scss",
+		"/E/Git/svadbavo-2015/dev/template/partials/pagination.jade",
+		"/E/Git/svadbavo-2015/dev/sass/partials/_pagination.scss",
+		"/E/Git/svadbavo-2015/dev/template/blocks/catalog-firms-list.jade",
+		"/E/Git/svadbavo-2015/dev/template/blocks/filter.jade",
+		"/E/Git/svadbavo-2015/dev/template/partials/breadcrumbs.jade",
+		"/E/Git/svadbavo-2015/dev/sass/partials/_breadcrumbs.scss",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_breadcrumbs.scss",
+		"/E/Git/svadbavo-2015/dev/template/blocks/breadcrumbs.jade",
+		"/E/Git/svadbavo-2015/dev/template/partials/footer.jade",
+		"/E/Git/svadbavo-2015/dev/sass/partials/_footer.scss",
+		"/E/Git/svadbavo-2015/production/scripts/slider.js",
+		"/E/Git/svadbavo-2015/production/scripts/app.js",
+		"/E/Git/svadbavo-2015/dev/sass/helpers/_sprite.scss",
+		"/E/Git/svadbavo-2015/dev/template/blocks/wedding-magazine.jade",
+		"/E/Git/svadbavo-2015/dev/template/advertise/direct-content.jade",
+		"/C/Dropbox/Sites/myart/MyArt4_kartochka.html",
+		"/E/Git/svadbavo-2015/dev/template/blocks/slider.jade",
+		"/E/Git/svadbavo-2015/dev/template/blocks/tabs-firm",
+		"/E/Git/svadbavo-2015/dev/template/advertise/advertise-content.jade",
+		"/E/Git/svadbavo-2015/dev/js/slider.js",
+		"/C/Dropbox/Sites/svadbovo_old/sass/screen.scss",
+		"/C/Dropbox/Sites/svadbovo_old/stylesheets/style.css",
+		"/E/Git/svadbavo-2015/dev/template/partials/scripts.jade",
+		"/E/Git/svadbavo-2015/dev/sass/base/_fonts.scss",
+		"/E/Git/mosmama/dev/templates/blocks/community-entries.jade",
+		"/C/Dropbox/Sites/svadbovo_old/javascript/script.js",
+		"/C/Dropbox/Sites/mysovets/javascript/script.js",
+		"/E/Git/mosmama/dev/templates/partials/scripts.jade",
+		"/E/Git/svadbavo-2015/dev/config.rb",
+		"/E/Git/svadbavo-2015/dev/sass/helpers/_icons.scss",
+		"/E/Git/mosmama/gulpfile.js",
+		"/E/Git/svadbavo-2015/dev/sass/blocks/_header.scss",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/include/app.js",
+		"/E/Git/svadbavo-2015/dev/template/advertise/advertise-under-header.jade",
+		"/E/Git/svadbavo-2015/production/main.html",
+		"/E/Git/svadbavo-2015/dev/sass/base/_mixins-colors.scss",
+		"/E/Git/mosmama/dev/sass/base/_config.scss",
+		"/E/Git/mosmama/dev/sass/base/_fonts.scss"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"_0xd2d0",
+			"box_spos",
+			"box-shadow",
+			"filter",
+			".korz",
+			".buttons",
+			".korz",
+			"korz",
+			"dop-nav",
+			"uncat",
+			"some-more",
+			"korz",
+			"before",
+			".pagination__link",
+			"sort-by",
+			".see",
+			"../images/",
+			"linkArrow",
+			"ececec",
+			"some-more",
+			".tovar",
+			"sprite.png",
+			"apply",
+			".tovar",
+			"filter-apply",
+			"../images",
+			"../",
+			"catalog",
+			"toTop",
+			"filter",
+			"tovar",
+			"blockest",
+			"slider",
+			"modal",
+			".views",
+			".anonim",
+			".anonum",
+			".wrapper",
+			"slide",
+			".korz",
+			".korz2",
+			"unpromo",
+			".breadcrumbs",
+			".otpravka",
+			".breadcrumbs",
+			"div",
+			"border-bottom",
+			".content",
+			".content > div",
+			".content div",
+			".content",
+			".otpravka div",
+			".otpravka > div",
+			".otpravka",
+			".breadcrumbs",
+			".skype",
+			"..skype",
+			"table",
+			"basket-page",
+			"../images",
+			"../images/",
+			" style=\"padding-left: 20px;\"",
+			"/images",
+			".menu",
+			"width: 228px;",
+			"228",
+			".big",
+			".big-row",
+			"@media",
+			"media",
+			"table",
+			".table",
+			".content",
+			".cont",
+			"cont",
+			"anonimous",
+			".body_box_spos p",
+			"body_box_spos",
+			"table1",
+			"reviews-list",
+			"Artem",
+			"Артем",
+			"Fhntv",
+			"textbox",
+			"small-profile",
+			"small",
+			"textbox",
+			"reviews",
+			"content",
+			".pay",
+			"table2",
+			"input-line",
+			"*>",
+			"input-line",
+			"form",
+			"Roboto",
+			"fonts",
+			"table",
+			"share-buttons",
+			"table",
+			".direct",
+			".directy",
+			"table",
+			".aler",
+			"юфдук",
+			"online",
+			"--blue",
+			"links--blue",
+			"links-blue",
+			"online",
+			"links",
+			"online",
+			"links",
+			"form",
+			"Редакт",
+			"links",
+			"Добавить",
+			"добавить",
+			"paginat",
+			"17",
+			"name",
+			"Макс",
+			"макс",
+			".online",
+			"links",
+			"in-frame",
+			"789",
+			"table"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".pagination__item",
+			"order-by",
+			"/images/",
+			"../images/sprite.png",
+			"/images",
+			"/",
+			"/images",
+			"/images/",
+			"",
+			"../images",
+			"",
+			"b-why-you-need",
+			"b-in-photo",
+			"b-why",
+			"03dbaf",
+			"01a987",
+			"03bd97",
+			"<button type=\"button\" class=\"btn btn-success save_redact\">Сохранить</button>\n					            	<button type=\"button\" class=\"btn btn-default cancel_redact\">Отменить</button>",
+			"<button type=\"button\" class=\"btn btn-success save_redact\">Сохранить</button>\n<button type=\"button\" class=\"btn btn-default cancel_redact\">Отменить</button>",
+			"col-xs",
+			"",
+			"class=\"save_redact\"",
+			"class=\"redacting\"",
+			"rows=\"5\"",
+			"parking",
+			"option",
+			"",
+			"</p>",
+			"<p>",
+			".footer",
+			"",
+			"table-finance-counters",
+			"btn",
+			"table__row table__row--tbody table-stat__row--tbody",
+			"table__row--cell table-stat__row--cell",
+			"table__row--cell",
+			" cell",
+			"images/",
+			"font/",
+			"/font/",
+			"/images/",
+			"images/",
+			"font/",
+			" {",
+			"/font/",
+			"/images/",
+			"images",
+			"font",
+			"url(PIE.htc);",
+			"/images/",
+			"/font/",
+			"images",
+			"font",
+			"",
+			"/images/",
+			"/font/",
+			"сервиса"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "shtukaturkapro.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 146.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

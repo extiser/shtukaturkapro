@@ -1,0 +1,18 @@
+// base config
+@import 'base/config';
+
+// sprite
+@import 'helpers/sprite';
+
+// header
+@import 'partials/header';
+
+// sidebar
+@import 'partials/sidebar';
+
+// main-page
+	@import 'blocks/main-categories';
+
+	@import 'blocks/materials';
+
+	@import 'blocks/seo';

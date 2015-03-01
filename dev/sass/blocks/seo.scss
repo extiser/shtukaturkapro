@@ -1,0 +1,30 @@
+.seo {
+	margin-top: 41px;
+	h1 {
+		margin-bottom: 20px;
+	}
+	p {
+		margin-bottom: 15px;
+
+		color: #313131;
+
+		font-size: 14px;
+		line-height: 20px;
+	}
+	ul {
+		li {
+			position: relative;
+
+			padding-left: 36px;
+
+			@extend p;
+			&:before {
+				top: 2px;
+				left: 15px;
+
+				@include sprite($s-ul-li);
+				@include content;
+			}
+		}
+	}
+}
