@@ -15,6 +15,7 @@ h5,
 h6,
 p,
 .seo ul li,
+.seo-hide ul li,
 blockquote,
 pre,
 a,
@@ -259,6 +260,7 @@ a:hover {
 
 .title,
 h1,
+.sidebar-menu__item,
 .main-categories .main-categories-block__title,
 .materials-block__title {
 	text-transform: uppercase;
@@ -283,6 +285,10 @@ h2 {
 	font-family: "Panton Bold", Arial;
 	font-size: 17px;
 	font-weight: 700;
+}
+
+.category h1 {
+	font-size: 24px;
 }
 
 /*
@@ -483,14 +489,14 @@ The `sprites` mixin generates identical output to the CSS template
 	height: 32px;
 
 	background-image: url(sprite.png);
-	background-position: -74px -77px;
+	background-position: -37px -77px;
 }
 .header .social-group__icon--gp {
 	width: 32px;
 	height: 32px;
 
 	background-image: url(sprite.png);
-	background-position: -37px -77px;
+	background-position: -74px -77px;
 }
 .header .social-group__icon:last-child {
 	margin-right: 0;
@@ -515,6 +521,7 @@ The `sprites` mixin generates identical output to the CSS template
 }
 .sidebar .title,
 .sidebar h1,
+.sidebar .sidebar-menu__item,
 .sidebar .main-categories .main-categories-block__title,
 .main-categories .sidebar .main-categories-block__title,
 .sidebar .materials-block__title {
@@ -527,6 +534,7 @@ The `sprites` mixin generates identical output to the CSS template
 }
 .sidebar .title:before,
 .sidebar h1:before,
+.sidebar .sidebar-menu__item:before,
 .sidebar .main-categories .main-categories-block__title:before,
 .main-categories .sidebar .main-categories-block__title:before,
 .sidebar .materials-block__title:before {
@@ -580,7 +588,7 @@ The `sprites` mixin generates identical output to the CSS template
 	content: "";
 
 	background-image: url(sprite.png);
-	background-position: -17px -114px;
+	background-position: -15px -133px;
 }
 .sidebar .user-questions {
 	margin-bottom: 30px;
@@ -636,6 +644,53 @@ The `sprites` mixin generates identical output to the CSS template
 .sidebar .vk-group {
 	width: 200px;
 	margin: 15px auto;
+}
+
+.sidebar-menu {
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.sidebar-menu__item {
+	position: relative;
+
+	display: block;
+
+	margin-bottom: 3px;
+	padding-left: 15px !important;
+
+	text-decoration: underline;
+
+	font-size: 14px;
+	line-height: 20px;
+}
+.sidebar-menu__item:before {
+	position: absolute;
+	top: 4px;
+	left: 0;
+
+	display: block;
+
+	width: 10px;
+	height: 10px;
+
+	content: "";
+
+	background-image: url(sprite.png);
+	background-position: -15px -133px;
+}
+.sidebar-menu__item:hover,
+.sidebar-menu__item.active {
+	text-decoration: none;
+
+	color: #ee6b5b;
+}
+.sidebar-menu__item:hover:before,
+.sidebar-menu__item.active:before {
+	width: 10px;
+	height: 10px;
+
+	background-image: url(sprite.png);
+	background-position: 0 -133px;
 }
 
 .footer {
@@ -732,7 +787,7 @@ The `sprites` mixin generates identical output to the CSS template
 	content: "";
 
 	background-image: url(sprite.png);
-	background-position: -247px -77px;
+	background-position: -266px -77px;
 }
 .footer .footer-menu__item--sitemap:before {
 	top: 4px;
@@ -743,7 +798,7 @@ The `sprites` mixin generates identical output to the CSS template
 	content: "";
 
 	background-image: url(sprite.png);
-	background-position: -32px -114px;
+	background-position: -30px -133px;
 }
 .footer .counters {
 	width: 170px;
@@ -753,6 +808,122 @@ The `sprites` mixin generates identical output to the CSS template
 	opacity: .5;
 
 	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+}
+
+.breadcrumbs {
+	margin-bottom: 15px;
+}
+.breadcrumbs__item {
+	position: relative;
+
+	padding-right: 23px;
+
+	text-decoration: underline;
+
+	color: #73595c;
+
+	font-size: 13px;
+	font-style: italic;
+}
+.breadcrumbs__item:hover {
+	text-decoration: none;
+}
+.breadcrumbs__item:after {
+	position: absolute;
+	top: 7px;
+	right: 7px;
+
+	width: 9px;
+	height: 3px;
+
+	content: "";
+
+	background-image: url(sprite.png);
+	background-position: -205px -98px;
+}
+.breadcrumbs__item--home {
+	padding-left: 15px;
+}
+.breadcrumbs__item--home:before {
+	position: absolute;
+	top: 3px;
+	left: 0;
+
+	display: block;
+
+	width: 12px;
+	height: 11px;
+
+	content: "";
+
+	background-image: url(sprite.png);
+	background-position: -283px -77px;
+}
+.breadcrumbs__item--current {
+	text-decoration: none;
+}
+.breadcrumbs__item--current:after {
+	display: none;
+}
+
+.pagination {
+	width: 660px;
+	margin: auto;
+	padding-top: 20px;
+
+	text-align: center;
+
+	border-top: 1px solid #c7bcbe;
+}
+.pagination__item {
+	position: relative;
+
+	display: inline;
+
+	margin: 0 1px;
+	padding: 2px 4px 2px 6px;
+
+	font-size: 14px;
+}
+.pagination__item--prev:before,
+.pagination__item--next:before {
+	position: absolute;
+	top: 9px;
+
+	content: "";
+}
+.pagination__item--prev {
+	padding-left: 8px;
+}
+.pagination__item--prev:before {
+	left: 0;
+
+	width: 5px;
+	height: 6px;
+
+	background-image: url(sprite.png);
+	background-position: -36px -114px;
+}
+.pagination__item--next {
+	padding-right: 8px;
+}
+.pagination__item--next:before {
+	right: 0;
+
+	width: 5px;
+	height: 6px;
+
+	background-image: url(sprite.png);
+	background-position: -46px -114px;
+}
+.pagination__item--current {
+	text-decoration: none;
+
+	color: #fff;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+	background: #ee6b5b;
 }
 
 .main-categories {
@@ -838,7 +1009,7 @@ The `sprites` mixin generates identical output to the CSS template
 	content: "";
 
 	background-image: url(sprite.png);
-	background-position: -17px -114px;
+	background-position: -15px -133px;
 }
 
 .materials {
@@ -908,7 +1079,7 @@ The `sprites` mixin generates identical output to the CSS template
 	height: 13px;
 
 	background-image: url(sprite.png);
-	background-position: -229px -77px;
+	background-position: -248px -77px;
 }
 .materials-block__item {
 	margin-bottom: 13px;
@@ -959,7 +1130,7 @@ The `sprites` mixin generates identical output to the CSS template
 	height: 4px;
 
 	background-image: url(sprite.png);
-	background-position: -283px -77px;
+	background-position: -188px -98px;
 }
 .materials-block__item .materials-block-inside .materials-block-meta--views:before {
 	top: 2px;
@@ -968,7 +1139,7 @@ The `sprites` mixin generates identical output to the CSS template
 	height: 8px;
 
 	background-image: url(sprite.png);
-	background-position: -264px -77px;
+	background-position: -17px -114px;
 }
 
 .seo {
@@ -978,7 +1149,8 @@ The `sprites` mixin generates identical output to the CSS template
 	margin-bottom: 20px;
 }
 .seo p,
-.seo ul li {
+.seo ul li,
+.seo-hide ul .seo li {
 	margin-bottom: 15px;
 
 	color: #313131;
@@ -992,6 +1164,211 @@ The `sprites` mixin generates identical output to the CSS template
 	padding-left: 36px;
 }
 .seo ul li:before {
+	position: absolute;
+	top: 2px;
+	left: 15px;
+	left: 0;
+
+	display: block;
+
+	width: 15px;
+	height: 15px;
+
+	content: "";
+
+	background-image: url(sprite.png);
+	background-position: -209px -77px;
+}
+
+.category-list {
+	display: -webkit-flex;
+	display:         flex;
+	        flex-direction: row;
+
+	-webkit-align-items: flex-start;
+	        align-items: flex-start;
+	-webkit-flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.category-list .category-list-item {
+	width: 228px;
+	margin-bottom: 25px;
+}
+.category-list .category-list-item img {
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+}
+.category-list .category-list-item .meta {
+	display: -webkit-flex;
+	display:         flex;
+	        flex-direction: row;
+
+	margin-top: 8px;
+	margin-bottom: 5px;
+	padding: 0 5px;
+
+	color: #71565b;
+
+	font-size: 11px;
+	font-style: italic;
+
+	-webkit-align-items: flex-start;
+	        align-items: flex-start;
+	-webkit-flex-direction: row;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.category-list .category-list-item .meta__date,
+.category-list .category-list-item .meta__comments,
+.category-list .category-list-item .meta__views {
+	position: relative;
+
+	padding-left: 18px;
+}
+.category-list .category-list-item .meta__date:before,
+.category-list .category-list-item .meta__comments:before,
+.category-list .category-list-item .meta__views:before {
+	position: absolute;
+	left: 0;
+
+	display: block;
+
+	content: "";
+}
+.category-list .category-list-item .meta__date:before {
+	top: -2px;
+
+	width: 14px;
+	height: 14px;
+
+	background-image: url(sprite.png);
+	background-position: -229px -77px;
+}
+.category-list .category-list-item .meta__comments:before {
+	width: 11px;
+	height: 11px;
+
+	background-image: url(sprite.png);
+	background-position: -300px -77px;
+}
+.category-list .category-list-item .meta__views:before {
+	top: 1px;
+
+	width: 14px;
+	height: 8px;
+
+	background-image: url(sprite.png);
+	background-position: -17px -114px;
+}
+.category-list .category-list-item a {
+	font-size: 16px;
+	font-style: italic;
+}
+
+.filter {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.filter__title {
+	padding-right: 10px;
+
+	color: #6d5257;
+
+	font-size: 14px;
+}
+.filter__item {
+	position: relative;
+
+	padding-right: 15px;
+}
+.filter__item--asc,
+.filter__item--desc {
+	text-decoration: none;
+
+	color: #1f1e1e;
+
+	font-weight: 700;
+}
+.filter__item--asc:after,
+.filter__item--desc:after {
+	position: absolute;
+	top: 8px;
+	right: 5px;
+
+	content: "";
+}
+.filter__item--asc:after {
+	width: 6px;
+	height: 3px;
+
+	background-image: url(sprite.png);
+	background-position: -230px -98px;
+}
+.filter__item--desc:after {
+	width: 6px;
+	height: 3px;
+
+	background-image: url(sprite.png);
+	background-position: -219px -98px;
+}
+
+.seo-hide {
+	position: relative;
+
+	overflow: hidden;
+
+	height: 250px;
+	margin-top: 30px;
+}
+.seo-hide.open {
+	height: auto;
+}
+.seo-hide .overflow {
+	position: absolute;
+	top: 0;
+
+	width: 100%;
+	height: 250px;
+
+	background: -webkit-linear-gradient(rgba(255, 255, 255, 0), #fff);
+	background:      -o-linear-gradient(rgba(255, 255, 255, 0), #fff);
+	background:         linear-gradient(rgba(255, 255, 255, 0), #fff);
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff',endColorstr='#ffffffff');
+}
+.seo-hide + .more,
+.seo-hide .opened {
+	text-decoration: underline;
+
+	color: #3e538c;
+
+	font-size: 14px;
+}
+.seo-hide + .more:hover,
+.seo-hide .opened:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.seo-hide p,
+.seo ul .seo-hide li,
+.seo-hide ul li {
+	margin-bottom: 15px;
+
+	color: #313131;
+
+	font-size: 14px;
+	line-height: 20px;
+}
+.seo-hide ul li {
+	position: relative;
+
+	padding-left: 36px;
+}
+.seo-hide ul li:before {
 	position: absolute;
 	top: 2px;
 	left: 15px;

@@ -1,0 +1,52 @@
+.seo-hide {
+	margin-top: 30px;
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+	&.open {
+		height: auto;
+	}
+	.overflow {
+		position: absolute;
+		width: 100%;
+		height: 250px;
+		top: 0;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff',endColorstr='#ffffffff');
+		background: -webkit-linear-gradient(rgba(255,255,255,0),#fff);
+		background: -o-linear-gradient(rgba(255,255,255,0),#fff);
+		background: linear-gradient(rgba(255,255,255,0),#fff);
+	}
+	& + .more, .opened {
+		color: $df-link-color;
+		font-size: 14px;
+		text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+	p {
+		margin-bottom: 15px;
+
+		color: #313131;
+
+		font-size: 14px;
+		line-height: 20px;
+	}
+	ul {
+		li {
+			position: relative;
+
+			padding-left: 36px;
+
+			@extend p;
+			&:before {
+				top: 2px;
+				left: 15px;
+
+				@include sprite($s-ul-li);
+				@include content;
+			}
+		}
+	}
+}

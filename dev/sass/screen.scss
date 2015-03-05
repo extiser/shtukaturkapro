@@ -10,8 +10,17 @@
 // sidebar
 @import 'partials/sidebar';
 
+// sidebar-menu
+@import 'blocks/sidebar-menu';
+
 // footer
 @import 'partials/footer';
+
+// breadcrumbs
+@import 'blocks/breadcrumbs';
+
+// pagination
+@import 'blocks/pagination';
 
 // main-page
 	@import 'blocks/main-categories';
@@ -19,3 +28,10 @@
 	@import 'blocks/materials';
 
 	@import 'blocks/seo';
+
+// category-page
+	@import 'blocks/category-list';
+
+	@import 'blocks/filter';
+
+	@import 'blocks/seo-hide';

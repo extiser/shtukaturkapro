@@ -1,0 +1,62 @@
+.category-list {
+	@include align-items(flex-start);
+	@include justify-content(space-between);
+	@include flex-direction(row);
+	@include display-flex(flex);
+	@include flex-wrap(wrap);
+	.category-list-item {
+		width: 228px;
+		margin-bottom: 25px;
+		img {
+			@include border-radius($df-border-radius);
+		}
+		.meta {
+			margin-top: 8px;
+			margin-bottom: 5px;
+			padding: 0 5px;
+
+			color: #71565b;
+
+			font-size: 11px;
+			font-style: italic;
+
+			@include align-items(flex-start);
+			@include justify-content(space-between);
+			@include flex-direction(row);
+			@include display-flex(flex);
+			&__date,
+			&__comments,
+			&__views {
+				position: relative;
+
+				padding-left: 18px;
+				&:before {
+					@include content;
+				}
+			}
+			&__date {
+				&:before {
+					top: -2px;
+
+					@include sprite($s-date);
+				}
+			}
+			&__comments {
+				&:before {
+					@include sprite($s-comments);
+				}
+			}
+			&__views {
+				&:before {
+					top: 1px;
+
+					@include sprite($s-views);
+				}
+			}
+		}
+		a {
+			font-size: 16px;
+			font-style: italic;
+		}
+	}
+}

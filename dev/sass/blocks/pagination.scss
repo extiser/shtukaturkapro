@@ -1,0 +1,52 @@
+.pagination {
+	width: 660px;
+	margin: auto;
+	padding-top: 20px;
+
+	text-align: center;
+
+	border-top: 1px solid #c7bcbe;
+	&__item {
+		position: relative;
+
+		display: inline;
+
+		margin: 0 1px;
+		padding: 2px 4px 2px 6px;
+
+		font-size: 14px;
+		&--prev,
+		&--next {
+			&:before {
+				position: absolute;
+				top: 9px;
+
+				content: "";
+			}
+		}
+		&--prev {
+			padding-left: 8px;
+			&:before {
+				left: 0;
+
+				@include sprite($s-pagination-prev);
+			}
+		}
+		&--next {
+			padding-right: 8px;
+			&:before {
+				right: 0;
+
+				@include sprite($s-pagination-next);
+			}
+		}
+		&--current {
+			text-decoration: none;
+
+			color: #fff;
+			background: #ee6b5b;
+
+			@include border-radius($df-border-radius);
+		}
+	}
+}
