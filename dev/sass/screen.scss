@@ -19,6 +19,9 @@
 // breadcrumbs
 @import 'blocks/breadcrumbs';
 
+// advertise
+@import 'blocks/advertise';
+
 // pagination
 @import 'blocks/pagination';
 
@@ -35,3 +38,14 @@
 	@import 'blocks/filter';
 
 	@import 'blocks/seo-hide';
+
+// single-page
+	@import 'blocks/article-nav';
+
+	@import 'blocks/article';
+
+	@import 'blocks/article-meta';
+
+	@import 'blocks/similar-article';
+
+	@import 'blocks/comments';

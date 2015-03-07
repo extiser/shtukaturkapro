@@ -1,0 +1,33 @@
+.similar-article {
+	margin-top: 30px;
+	&__title {
+		@extend .title;
+		position: relative;
+		padding-left: 27px;
+		margin-bottom: 18px;
+		&:before {
+			@include content;
+			@include sprite($s-similar-article);
+			top: 2px;
+		}
+	}
+	.similar-article-list {
+		@include align-items(flex-start);
+		@include justify-content(space-between);
+		@include flex-direction(row);
+		@include display-flex(flex);
+		&__item {
+			width: 161px;
+			text-align: center;
+			img {
+				@include border-radius($df-border-radius);
+				display: block;
+				margin-bottom: 5px;
+			}
+			a {
+				font-size: 14px;
+				font-style: italic;
+			}
+		}
+	}
+}

@@ -1,0 +1,57 @@
+.article-meta {
+	@include align-items(center);
+	@include justify-content(space-between);
+	@include flex-direction(row);
+	@include display-flex(flex);
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 15px 0;
+	.rating {
+		&__title {
+			font-size: 14px;
+			color: #71575a;
+			display: inline-block;
+			margin-right: 5px;
+		}
+		.star-rating-control {
+			font-size: 0px;
+			text-indent: -9999px;
+			.star-rating {
+				display: inline-block;
+				@include sprite($s-star-rating--empty);
+				&.star-rating-on {
+					@include sprite($s-star-rating--full);
+				}
+				&.star-rating-hover {
+					@include sprite($s-star-rating--full);
+				}
+			}
+		}
+	}
+
+	.print-version {
+		font-size: 14px;
+		position: relative;
+		font-style: italic;
+		margin-left: 24px;
+		&:before {
+			@include content;
+			@include sprite($s-print);
+			left: -24px;
+			top: 1px;
+		}
+	}
+
+	.social {
+		margin-top: 3px;
+		&__title {
+			font-size: 14px;
+			color: #3d3a3a;
+			display: inline-block;
+		}
+		.pluso {
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+}
