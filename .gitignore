@@ -1,1 +1,6 @@
 node_modules/
+dev/
+shtukaturkapro.sublime-workspace
+package.json
+gulpfile.js
+.csscomb.json
