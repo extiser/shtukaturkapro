@@ -31,178 +31,175 @@
         <div class="calculators">
           <h1>Калькуляторы</h1>
           <!-- list-calculators-->
+          <script type="text/javascript" src="scripts/calculators.js"></script>
           <div class="list-calculators">
             <!-- расчет раствора-->
             <div class="list-calculators-item active"><span class="btn btn-calc">Расчет раствора</span>
               <div class="list-calculators-form">
-                <form method="" action="">
+                <form name="form" onclick="calculator_1(this)" onkeyup="calculator_1(this)">
                   <div class="list-calculators-form__block">
-                    <label for="" class="list-calculators-form__label">Объем раствора (в м3):</label>
-                    <input type="text" name="" value="0" class="list-calculators-form__item">
+                    <label class="list-calculators-form__label">Объем раствора (в м<sup>3</sup>):</label>
+                    <input type="text" name="calculator_1_bulk" value="0,3" class="list-calculators-form__item">
                   </div>
                   <div class="list-calculators-form__block">
-                    <label for="" class="list-calculators-form__label">Марка раствора:</label>
-                    <select name="" class="list-calculators-form__item">
-                      <option>М25</option>
-                      <option>М50</option>
-                      <option>М75</option>
-                      <option>М100</option>
+                    <label class="list-calculators-form__label">Марка раствора:</label>
+                    <select name="calculator_1_brand" class="list-calculators-form__item">
+                      <option value="M25">М25</option>
+                      <option value="M50">М50</option>
+                      <option value="M75">М75</option>
+                      <option value="M100">М100</option>
                     </select>
                   </div>
                 </form>
               </div>
               <div class="list-calculators-result">
                 <div class="list-calculators-result__title">Итог:</div>
-                <p> <span>Цемент:</span>0.00 кг</p>
-                <p><span>Песок:</span>0.00 кг</p>
-                <p><span>Вода:</span>0.00 л</p>
+                <p> <span>Цемент:<span id="calculator_1_cement">0.00 кг</span></span></p>
+                <p><span>Песок:<span id="calculator_1_sand">0 м<sup>3</sup></span></span></p>
+                <p><span>Вода:<span id="calculator_1_water">0.00 л</span></span></p>
               </div>
             </div>
             <!-- расчет штукатурной смеси-->
             <div class="list-calculators-item"><span class="btn btn-calc">Расчет штукатурной смеси</span>
               <div class="list-calculators-form">
-                <form method="" action="">
+                <form name="form" onclick="calculator_2(this)" onkeyup="calculator_2(this)">
                   <div class="list-calculators-form__block">
                     <div class="list-calculators-form__title">Расчет расхода:</div>
                     <label for="" class="list-calculators-form__label">Длина стен (м.):</label>
-                    <input type="text" name="" value="0" class="list-calculators-form__item">
+                    <input type="text" name="calculator_2_length" value="0" class="list-calculators-form__item">
                     <label for="" class="list-calculators-form__label">Ширина стен (м.):</label>
-                    <input type="text" name="" value="0" class="list-calculators-form__item">
+                    <input type="text" name="calculator_2_width" value="0" class="list-calculators-form__item">
                     <label for="" class="list-calculators-form__label">Толщина слоя (мм):</label>
-                    <input type="text" name="" value="0" class="list-calculators-form__item">
+                    <input type="text" name="calculator_2_thickness" value="0" class="list-calculators-form__item">
                   </div>
                   <div class="list-calculators-form__block">
                     <div class="list-calculators-form__title">Добавить внутренние стены:</div>
                     <label for="" class="list-calculators-form__label">Длина внутренних стен (м.):</label>
-                    <input type="text" name="" value="0" class="list-calculators-form__item">
+                    <input type="text" name="calculator_2_length_inner" value="0" class="list-calculators-form__item">
                     <label for="" class="list-calculators-form__label">Ширина внутренних стен (м.):</label>
-                    <input type="text" name="" value="0" class="list-calculators-form__item">
+                    <input type="text" name="calculator_2_width_inner" value="0" class="list-calculators-form__item">
                     <label for="" class="list-calculators-form__label">Продукт:</label>
-                    <select name="" class="list-calculators-form__item">
+                    <select name="calculator_2_brand" class="list-calculators-form__item">
                       <option disabled>Юнис</option>
-                      <option value="1">Штукатурка ЮНИС ТЕПЛОН белый (30 кг)</option>
+                      <option value="1">ЮНИС ТЕПЛОН белый (30 кг)</option>
                       <option disabled>Старатели</option>
-                      <option value="1">Штукатурка MIXTER / МИКСТЕР (30 кг)</option>
-                      <option value="1">Штукатурка СТАРАТЕЛИ гипсовая серая (30кг)</option>
+                      <option value="2">MIXTER / МИКСТЕР (30 кг)</option>
+                      <option value="3">СТАРАТЕЛИ гипсовая серая (30кг)</option>
                       <option disabled>Основит</option>
-                      <option value="1">Цементная выравнивающая штукатурка ОСНОВИТ БИГВЭЛЛ Т-22 (25 кг)</option>
-                      <option value="1">Цементно-известковая выравнивающая штукатурка ОСНОВИТ СТАРТВЭЛЛ Т-21 (25 кг)</option>
-                      <option value="1">Штукатурка гипсовая ОСНОВИТ ГИПСВЭЛЛ МН Т-26 (30 кг)</option>
-                      <option value="1">Штукатурка гипсовая ОСНОВИТ ГИПСВЭЛЛ Т-25 белая (30 кг)</option>
-                      <option value="1">Штукатурка гипсовая ОСНОВИТ ГИПСВЭЛЛ Т-25 серая (30 кг)</option>
-                      <option value="1">Штукатурка лёгкая ОСНОВИТ ФЛАЙВЭЛЛ Т-24 (25 кг)</option>
-                      <option value="1">Штукатурка цементная тонкослойная ОСНОВИТ СЛИМВЭЛЛ Т-23 (25 кг)</option>
+                      <option value="4">Цементная выравнивающая штукатурка ОСНОВИТ БИГВЭЛЛ Т-22 (25 кг)</option>
+                      <option value="5">Цементно-известковая выравнивающая штукатурка ОСНОВИТ СТАРТВЭЛЛ Т-21 (25 кг)</option>
+                      <option value="6">Гипсовая ОСНОВИТ ГИПСВЭЛЛ МН Т-26 (30 кг)</option>
+                      <option value="7">Гипсовая ОСНОВИТ ГИПСВЭЛЛ Т-25 белая (30 кг)</option>
+                      <option value="8">Гипсовая ОСНОВИТ ГИПСВЭЛЛ Т-25 серая (30 кг)</option>
+                      <option value="9">Лёгкая ОСНОВИТ ФЛАЙВЭЛЛ Т-24 (25 кг)</option>
+                      <option value="10">Цементная тонкослойная ОСНОВИТ СЛИМВЭЛЛ Т-23 (25 кг)</option>
                       <option disabled>Волма</option>
-                      <option value="1">Штукатурка ВОЛМА СЛОЙ (30 кг)</option>
+                      <option value="11">ВОЛМА СЛОЙ (30 кг)</option>
                       <option disabled>Knauf</option>
-                      <option value="1">Штукатурка KNAUF ROTBAND / КНАУФ РОТБАНД (30 кг)</option>
-                      <option value="1">Штукатурка KNAUF UNTERPUTZ / КНАУФ УНТЕРПУТЦ (25 кг) фасадная. мешок</option>
+                      <option value="12">KNAUF ROTBAND / КНАУФ РОТБАНД (30 кг)</option>
+                      <option value="13">KNAUF UNTERPUTZ / КНАУФ УНТЕРПУТЦ (25 кг) фасадная. мешок</option>
                       <option disabled>Bergauf</option>
-                      <option value="1">Штукатурка гипсовая BERGAUF Bau Putz Gips / БЕРГАУФ Бау Путц Гипс (30 кг) для стен и потолков</option>
-                      <option value="1">Штукатурка гипсовая BERGAUF Prima Putz Gips / БЕРГАУФ Прима Путц Гипс (30 кг) премиум</option>
-                      <option value="1">Штукатурка цементная BERGAUF Bau Putz Zement / БЕРГАУФ Бау Путц Цемент (25 кг) для фасадов   </option>
+                      <option value="14">Гипсовая BERGAUF Bau Putz Gips / БЕРГАУФ Бау Путц Гипс (30 кг) для стен и потолков</option>
+                      <option value="15">Гипсовая BERGAUF Prima Putz Gips / БЕРГАУФ Прима Путц Гипс (30 кг) премиум</option>
+                      <option value="16">Цементная BERGAUF Bau Putz Zement / БЕРГАУФ Бау Путц Цемент (25 кг) для фасадов   </option>
                     </select>
                   </div>
                 </form>
               </div>
               <div class="list-calculators-result">
                 <div class="list-calculators-result__title">Итог:</div>
-                <p> <span>Площадь поверхности:</span>0.00 м<sup>2</sup></p>
-                <p><span>Количество кг:</span>0.00 кг</p>
-                <p><span>Количество мешков:</span>0.00</p>
+                <p> <span>Площадь поверхности:<span id="surface_area">0.00 м<sup>2</sup></span></span></p>
+                <p><span>Количество кг:<span id="total_plaster_kg">0.00 кг</span></span></p>
+                <p><span>Количество мешков:<span id="total_bags">0.00</span></span></p>
               </div>
             </div>
             <!-- расчет расхода шпатлевки-->
             <div class="list-calculators-item"><span class="btn btn-calc">Расчет расхода шпатлевки</span>
               <div class="list-calculators-form">
-                <form method="" action="">
+                <form name="form" onclick="calculator_3(this)" onkeyup="calculator_3(this)">
                   <div class="list-calculators-form__block">
                     <div class="list-calculators-form__title">Расчет расхода:</div>
                     <label for="" class="list-calculators-form__label">Длина стен (м.):</label>
-                    <input type="text" name="" value="0" class="list-calculators-form__item">
+                    <input type="text" name="calculator_3_length" value="0" class="list-calculators-form__item">
                     <label for="" class="list-calculators-form__label">Ширина стен (м.):</label>
-                    <input type="text" name="" value="0" class="list-calculators-form__item">
+                    <input type="text" name="calculator_3_width" value="0" class="list-calculators-form__item">
                     <label for="" class="list-calculators-form__label">Толщина слоя (мм):</label>
-                    <input type="text" name="" value="0" class="list-calculators-form__item">
+                    <input type="text" name="calculator_3_thickness" value="0" class="list-calculators-form__item">
                   </div>
                   <div class="list-calculators-form__block">
                     <div class="list-calculators-form__title">Добавить внутренние стены:</div>
                     <label for="" class="list-calculators-form__label">Длина внутренних стен (м.):</label>
-                    <input type="text" name="" value="0" class="list-calculators-form__item">
+                    <input type="text" name="calculator_3_length_inner" value="0" class="list-calculators-form__item">
                     <label for="" class="list-calculators-form__label">Ширина внутренних стен (м.):</label>
-                    <input type="text" name="" value="0" class="list-calculators-form__item">
+                    <input type="text" name="calculator_3_width_inner" value="0" class="list-calculators-form__item">
                     <label for="" class="list-calculators-form__label">Продукт:</label>
-                    <select name="" class="list-calculators-form__item">
+                    <select name="calculator_3_brand" class="list-calculators-form__item">
                       <option disabled>Юнис</option>
-                      <option value="1">Шпатлевка UNIS KRON / ЮНИС КРОН (25 кг)</option>
+                      <option value="1">UNIS KRON / ЮНИС КРОН (25 кг)</option>
                       <option disabled>Старатели</option>
-                      <option value="1">Шпатлевка СТАРАТЕЛИ фасадная (20кг) мешок</option>
-                      <option value="1">Шпатлевка СТАРАТЕЛИ финишная (12кг) мешок</option>
+                      <option value="1">СТАРАТЕЛИ фасадная (20кг) мешок</option>
+                      <option value="1">СТАРАТЕЛИ финишная (12кг) мешок</option>
                       <option disabled>Основит</option>
-                      <option value="1">Шпаклевка полимерная ОСНОВИТ ГЛЭДСИЛК Т-38 (20 кг)</option>
-                      <option value="1">Шпатлевка гипсовая серая ОСНОВИТ ВЕРСИЛК Т-34 (20 кг)</option>
-                      <option value="1">Шпатлевка гипсовая супертонкая ОСНОВИТ ЭЛИСИЛК Т-36 (20 кг)</option>
-                      <option value="1">Шпатлевка ОСНОВИТ БАЗСИЛК Т-30 (20 кг)</option>
-                      <option value="1">Шпатлевка ОСНОВИТ ЛЕРСИЛК Т-37 Аналог LR+ (20 кг)</option>
-                      <option value="1">Шпатлевка ОСНОВИТ ЭКОНСИЛК Т-35 (25 кг)</option>
-                      <option value="1">Шпатлевка цементная белая ОСНОВИТ БЕЛСИЛК Т-32 (20 кг)</option>
-                      <option value="1">Шпатлевка цементная серая ОСНОВИТ ГРЕЙСИЛК Т-31 (20 кг)</option>
+                      <option value="1">Полимерная ОСНОВИТ ГЛЭДСИЛК Т-38 (20 кг)</option>
+                      <option value="1">Гипсовая серая ОСНОВИТ ВЕРСИЛК Т-34 (20 кг)</option>
+                      <option value="1">Гипсовая супертонкая ОСНОВИТ ЭЛИСИЛК Т-36 (20 кг)</option>
+                      <option value="1">ОСНОВИТ БАЗСИЛК Т-30 (20 кг)</option>
+                      <option value="1">ОСНОВИТ ЛЕРСИЛК Т-37 Аналог LR+ (20 кг)</option>
+                      <option value="1">ОСНОВИТ ЭКОНСИЛК Т-35 (25 кг)</option>
+                      <option value="1">Цементная белая ОСНОВИТ БЕЛСИЛК Т-32 (20 кг)</option>
+                      <option value="1">Цементная серая ОСНОВИТ ГРЕЙСИЛК Т-31 (20 кг)</option>
                       <option disabled>Общий производитель</option>
-                      <option value="1">Шпаклевка PUFAS GLATT UND FULL SPACHTEL / ПУФАС №3 финишная толстослойная (25 кг)</option>
+                      <option value="1">PUFAS GLATT UND FULL SPACHTEL / ПУФАС №3 финишная толстослойная (25 кг)</option>
                       <option disabled>Максит (Weber Vetonit)</option>
-                      <option value="1">Шпатлевка VETONIT FINISH KR / ВЕТОНИТ ФИНИШ КР (25 кг) для сухих помещений</option>
-                      <option value="1">Шпатлевка VETONIT FINISH LR PLUS / ВЕТОНИТ ФИНИШ ЛР ПЛЮС (25 кг) для сухих помещений</option>
+                      <option value="1">VETONIT FINISH KR / ВЕТОНИТ ФИНИШ КР (25 кг) для сухих помещений</option>
+                      <option value="1">VETONIT FINISH LR PLUS / ВЕТОНИТ ФИНИШ ЛР ПЛЮС (25 кг) для сухих помещений</option>
                       <option disabled>Knauf</option>
-                      <option value="1">Шпатлевка KNAUF FUGEN / КНАУФ ФУГЕН (25 кг)</option>
-                      <option value="1">Шпатлевка KNAUF MULTI-FINISH / КНАУФ МУЛЬТИ-ФИНИШ (20 кг) </option>
+                      <option value="1">KNAUF FUGEN / КНАУФ ФУГЕН (25 кг)</option>
+                      <option value="1">KNAUF MULTI-FINISH / КНАУФ МУЛЬТИ-ФИНИШ (20 кг) </option>
                       <option disabled>Bergauf  </option>
-                      <option value="1">Универсальная шпаклевка на гипсовой основе BERGAUF Fugen Gips / БЕРГАУФ Фуген Гипс (25 кг)</option>
-                      <option value="1">Шпаклевка гипсовая BERGAUF Finish Gips / БЕРГАУФ Финиш Гипс (18 кг)</option>
-                      <option value="1">Шпаклевка на полимерной основе BERGAUF Finish Polymer / БЕРГАУФ Финиш Полимер (25 кг)</option>
-                      <option value="1">Шпаклевка на полимерной основе BERGAUF Finish Polymer / БЕРГАУФ Финиш Полимер (5 кг)</option>
-                      <option value="1">Шпаклевка на цементной основе BERGAUF Finish Zement / БЕРГАУФ Финиш Цемент (20 кг)</option>
-                      <option value="1">Шпаклевка на цементной основе BERGAUF Finish Zement / БЕРГАУФ Финиш Цемент (5 кг)</option>
-                      <option value="1">Шпаклевка на цементной основе BERGAUF Glatte Zement / БЕРГАУФ Глатте Цемент (25 кг)</option>
+                      <option value="1">Универсальная на гипсовой основе BERGAUF Fugen Gips / БЕРГАУФ Фуген Гипс (25 кг)</option>
+                      <option value="1">Гипсовая BERGAUF Finish Gips / БЕРГАУФ Финиш Гипс (18 кг)</option>
+                      <option value="1">На полимерной основе BERGAUF Finish Polymer / БЕРГАУФ Финиш Полимер (25 кг)</option>
+                      <option value="1">На полимерной основе BERGAUF Finish Polymer / БЕРГАУФ Финиш Полимер (5 кг)</option>
+                      <option value="1">На цементной основе BERGAUF Finish Zement / БЕРГАУФ Финиш Цемент (20 кг)</option>
+                      <option value="1">На цементной основе BERGAUF Finish Zement / БЕРГАУФ Финиш Цемент (5 кг)</option>
+                      <option value="1">На цементной основе BERGAUF Glatte Zement / БЕРГАУФ Глатте Цемент (25 кг)</option>
                     </select>
                   </div>
                 </form>
               </div>
               <div class="list-calculators-result">
                 <div class="list-calculators-result__title">Итог:</div>
-                <p> <span>Площадь поверхности:</span>0.00 м<sup>2</sup></p>
-                <p><span>Количество кг:</span>0.00 кг</p>
-                <p><span>Количество мешков:</span>0.00</p>
+                <p> <span>Площадь поверхности:<span id="surface_area_calc3">0.00 м<sup>2</sup></span></span></p>
+                <p><span>Количество кг:<span id="total_plaster_kg_calc3">0.00 кг</span></span></p>
+                <p><span>Количество мешков:<span id="total_bags_calc3">0.00</span></span></p>
               </div>
             </div>
             <!-- расчет бетона-->
             <div class="list-calculators-item"><span class="btn btn-calc">Расчет бетона</span>
               <div class="list-calculators-form">
-                <form method="" action="">
+                <form name="form" onclick="calculator_4(this)" onkeyup="calculator_4(this)">
                   <div class="list-calculators-form__block">
-                    <label for="" class="list-calculators-form__label">Объем бетона (в м3):</label>
-                    <input type="text" name="" value="0" class="list-calculators-form__item">
+                    <label for="" class="list-calculators-form__label">Объем бетона (в м<sup>3</sup>):</label>
+                    <input type="text" name="calculator_4_bulk" value="0" class="list-calculators-form__item">
                   </div>
                   <div class="list-calculators-form__block">
                     <label for="" class="list-calculators-form__label">Марка бетона:</label>
-                    <select name="" class="list-calculators-form__item">
-                      <option>М100</option>
-                      <option>М200</option>
-                      <option>М250</option>
-                      <option>М300</option>
+                    <select name="calculator_4_brand" class="list-calculators-form__item">
+                      <option name="M100">M100</option>
+                      <option name="M200">М200</option>
+                      <option name="M250">М250</option>
+                      <option name="M300">М300</option>
                     </select>
                   </div>
                 </form>
               </div>
               <div class="list-calculators-result">
                 <div class="list-calculators-result__title">Итог:</div>
-                <p> <span>Цемент:</span>0.00 кг</p>
-                <p><span>Песок:</span>0.00 кг
-                  0.00 м<sup>3</sup>
-                </p>
-                <p><span>Щебень:</span>0.00 кг
-                  0.00 м<sup>3</sup>
-                </p>
-                <p><span>Вода:</span>0.00 л</p>
+                <p> <span>Цемент:<span id="calculator_4_cement">0.00 кг</span></span></p>
+                <p><span>Песок:<span id="calculator_4_sand">0.00 кг</span></span></p>
+                <p><span>Щебень:<span id="calculator_4_cr_stone">0.00 кг</span></span></p>
+                <p><span>Вода:<span id="calculator_4_water">0.00 л</span></span></p>
               </div>
             </div>
           </div>
