@@ -1,0 +1,48 @@
+.footer {
+	margin-top: 25px;
+	padding-top: 10px;
+
+	background: url(%=staticPrefixForCss=%general/footer-bg.jpg);
+	&__wrapper {
+		display: flex;
+
+		min-height: 90px;
+
+		align-items: center;
+		@extend .wrapper;
+		justify-content: space-between;
+	}
+	&__copyright {
+		position: relative;
+
+		padding-left: 25px;
+		&:before {
+			top: 3px;
+			left: 0;
+
+			@include content;
+			@include bg($logo-footer-desktop);
+		}
+		p {
+			margin: 0;
+
+			color: #bdb7b8;
+
+			font-size: em(12px);
+		}
+	}
+}
+
+.footer-menu {
+	&__item {
+		margin-right: 25px;
+
+		color: #e6e6e6;
+
+		font-family: "PTSans-Italic";
+		font-size: em(13px);
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}

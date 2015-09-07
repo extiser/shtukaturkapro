@@ -1,0 +1,95 @@
+.top-menu {
+	width: 100%;
+	padding-top: 20px;
+	&__list {
+		display: flex;
+
+		justify-content: space-between;
+	}
+	&__item {
+		position: relative;
+		&:hover {
+			> a {
+				color: $yellow;
+				border-bottom-color: transparent;
+			}
+		}
+		a {
+			position: relative;
+			z-index: 6;
+
+			text-decoration: none;
+			text-transform: uppercase;
+
+			color: #fff;
+			border-bottom: 1px solid rgba(254,218,0,.3);
+
+			font-family: "PTSans-Bold";
+			font-size: em(14px);
+			line-height: 1;
+
+			@include transition;
+			@media screen and (max-width: 1024px) {
+				font-size: em(12px);
+			}
+		}
+		&--drop {
+			padding-right: 12px;
+			&:after {
+				z-index: 6;
+				top: 7px;
+				right: 0;
+
+				@include bg($menu-drop);
+				@include content;
+			}
+			&:hover {
+				&:after {
+					top: 9px;
+					right: 0;
+
+					@include bg($menu-drop-active);
+				}
+				.top-menu__drop {
+					visibility: visible;
+
+					opacity: 1;
+				}
+			}
+		}
+	}
+	&__drop {
+		position: absolute;
+		z-index: 5;
+		top: -10px;
+		left: -20px;
+
+		visibility: hidden;
+
+		width: 100%;
+		padding: 35px 15px 15px 20px;
+
+		opacity: 0;
+		border: 1px solid $brown + #111;
+		background: $brown;
+
+		@include transition;
+		@media screen and (max-width: 1024px) {
+			padding-right: 10px;
+		}
+		a {
+			display: block;
+
+			padding: 10px 0;
+
+			text-transform: none;
+
+			border-bottom: none;
+
+			@include transition;
+			&:hover {
+				color: $yellow;
+			}
+		}
+	}
+}

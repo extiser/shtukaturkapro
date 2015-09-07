@@ -1,0 +1,36 @@
+h1,
+h2 {
+	color: $coral;
+
+	font-family: "PTSans-Bold";
+	font-size: em(24px);
+}
+h2 {
+	font-family: "PTSans-Regular";
+	font-size: em(21px);
+}
+p,
+ul,
+ol {
+	@extend .paragraph;
+}
+ul,
+ol {
+	@include nl;
+	li {
+		position: relative;
+	}
+}
+ul {
+	li {
+		margin-bottom: 10px;
+		padding-left: 25px;
+		&:before {
+			top: 3px;
+			left: 0;
+
+			@include bg($check);
+			@include content;
+		}
+	}
+}

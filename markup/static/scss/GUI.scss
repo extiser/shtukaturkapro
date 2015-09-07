@@ -1,0 +1,30 @@
+// GUI stylies of the project
+// For example, styles of the links, buttons and so on.
+
+.link {
+	text-decoration: underline;
+
+	color: $blue;
+
+	font-size: em(15px);
+	line-height: em(18px, 15px);
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.paragraph {
+	color: #444;
+
+	font-size: em(14px);
+	line-height: em(21px, 14px);
+}
+
+.title {
+	text-transform: uppercase;
+
+	color: $brown;
+
+	font-family: "PTSans-Bold";
+	font-size: em(18px);
+}

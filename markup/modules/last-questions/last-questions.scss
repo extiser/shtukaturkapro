@@ -1,0 +1,40 @@
+.last-questions {
+	margin-top: 25px;
+	&__title {
+		// padding-left: 32px;
+		position: relative;
+		// &:before {
+		// 	@include content;
+		// 	@include bg($question-last);
+		// 	left: 0;
+		// 	top: 5px;
+		// }
+
+		margin-bottom: 15px;
+
+		text-align: center;
+
+		@extend .title;
+	}
+	&__item {
+		position: relative;
+
+		display: block;
+
+		margin-bottom: 10px;
+		padding-left: 20px;
+
+		@extend .link;
+		&:before {
+			top: 4px;
+			left: 0;
+
+			@include content;
+			@include bg($question-link);
+		}
+	}
+	// &__all-questions {
+	// 	@extend .link;
+	// 	font-family: "PTSans-Italic";
+	// }
+}
