@@ -1,0 +1,74 @@
+.category-content {
+	@extend .left-side;
+	@extend .seo-text;
+	h1 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		@extend h1;
+	}
+	&__text {
+		margin-bottom: 25px;
+	}
+}
+
+.sort {
+	margin-bottom: 15px;
+
+	font-size: em(14px);
+	&__title {
+		display: inline-block;
+
+		margin-right: 10px;
+	}
+	&__item {
+		position: relative;
+
+		display: inline-block;
+
+		margin-right: 25px;
+
+		@extend .link;
+		&:after {
+			top: 1px;
+			right: -15px;
+
+			@include content;
+		}
+		&.asc,
+		&.desc {
+			text-decoration: none;
+
+			color: #444;
+
+			font-family: "PTSans-Bold";
+		}
+		&.asc {
+			&:after {
+				@include bg($sort-asc);
+			}
+		}
+		&.desc {
+			&:after {
+				@include bg($sort-desc);
+			}
+		}
+	}
+}
+
+.inside-category {
+	&__item {
+		position: relative;
+
+		padding-right: 15px;
+		padding-left: 15px;
+
+		@extend .link;
+		&:before {
+			top: 5px;
+			left: 0;
+
+			@include bg($question-link);
+			@include content;
+		}
+	}
+}

@@ -2,11 +2,12 @@
 
 html,
 body {
-	height: 100%;
-
 	background: url(%=staticPrefixForCss=%general/bg.png);
 
 	font-family: "PTSans-Regular";
+	&.active {
+		overflow: hidden;
+	}
 }
 
 .wrapper {
@@ -14,6 +15,29 @@ body {
 	margin: auto;
 	@media screen and (max-width: 1024px) {
 		width: 1000px;
+	}
+	@media screen and (max-width: 960px) {
+		width: 100%;
+	}
+}
+
+.mask {
+	position: fixed;
+	z-index: 97;
+	top: 0;
+	left: 0;
+
+	visibility: hidden;
+
+	width: 100%;
+	height: 100%;
+
+	opacity: 0;
+	background: rgba(0,0,0,.3);
+	&.active {
+		visibility: visible;
+
+		opacity: 1;
 	}
 }
 
@@ -27,9 +51,12 @@ body {
 	background: #fff;
 	box-shadow: 0 0 8px #d5d5d5;
 
-	align-items: flex-start;
+	align-items: stretch;
 	@extend .wrapper;
 	justify-content: space-between;
+	@media screen and (max-width: 960px) {
+		flex-wrap: wrap;
+	}
 }
 
 .left-side {
@@ -49,5 +76,109 @@ body {
 		background: linear-gradient(to right, #f6f4f5 0%, #fff 100%);
 
 		@include content;
+		@media screen and (max-width: 960px) {
+			display: none;
+		}
+	}
+}
+
+.seo-text {
+	h1,
+	h2 {
+		color: $coral;
+
+		font-family: "PTSans-Bold";
+		font-size: em(24px);
+	}
+	h2 {
+		font-family: "PTSans-Regular";
+		font-size: em(21px);
+	}
+	p,
+	ul,
+	ol {
+		@extend .paragraph;
+	}
+	ul,
+	ol {
+		@include nl;
+		li {
+			position: relative;
+
+			margin-bottom: 10px;
+		}
+	}
+	ul {
+		li {
+			padding-left: 25px;
+			&:before {
+				top: 3px;
+				left: 0;
+
+				@include content;
+				@include bg($check);
+			}
+		}
+	}
+	ol {
+		counter-reset: point;
+		li {
+			padding-left: 25px;
+			&:before {
+				position: absolute;
+				top: 3px;
+				left: 0;
+
+				width: 18px;
+				height: 18px;
+
+				content: counter(point);
+				counter-increment: point 1;
+				text-align: center;
+
+				color: #fff;
+				border-radius: 50%;
+				background: $brown;
+
+				font-family: "PTSans-Italic";
+				font-size: 12px;
+				line-height: 18px;
+			}
+		}
+	}
+	a {
+		@extend .link;
+	}
+	figure {
+		text-align: center;
+	}
+	figcaption {
+		font-family: "PTSans-Italic";
+		font-size: em(13px);
+	}
+	iframe {
+		display: block;
+
+		margin: 15px auto;
+	}
+	blockquote {
+		position: relative;
+
+		margin: 15px 0;
+		padding: 15px 25px 15px 70px;
+
+		border: 1px solid #cecece;
+		p {
+			margin: 0;
+
+			font-size: em(16px);
+		}
+		&:before {
+			top: 20px;
+			left: 20px;
+
+			@include bg($blockquote);
+			@include content;
+		}
 	}
 }

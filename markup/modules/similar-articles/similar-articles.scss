@@ -1,0 +1,31 @@
+.similar-articles {
+	display: flex;
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+	border-top: 1px dashed #cecece;
+	border-bottom: 1px dashed #cecece;
+
+	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	&__title {
+		width: 100%;
+		margin-bottom: 15px;
+
+		text-transform: uppercase;
+
+		color: $coral;
+
+		font-family: "PTSans-Bold";
+		font-size: em(18px);
+	}
+}
+
+.similar-articles-item {
+	width: 30%;
+	&__link {
+		@extend .link;
+	}
+}

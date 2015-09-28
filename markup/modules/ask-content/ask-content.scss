@@ -1,0 +1,20 @@
+.ask-content {
+	@extend .seo-text;
+	@extend .left-side;
+}
+
+.last-ask {
+	margin-top: 25px;
+	&__title {
+		margin-bottom: 15px;
+
+		@extend .title;
+	}
+}
+
+.last-ask-item {
+	margin-bottom: 10px;
+	padding: 20px 20px 10px 20px;
+
+	background: #f9f9f9;
+}

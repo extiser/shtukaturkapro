@@ -1,6 +1,9 @@
-mixin sidebar()
+mixin sidebar(data)
 	aside.sidebar
+		- if (data == undefined) {
 		+questions()
 		+last-questions()
+		- }
+		//- +calculator-list()
 		+banner-sidebar()
 		+social-widget()

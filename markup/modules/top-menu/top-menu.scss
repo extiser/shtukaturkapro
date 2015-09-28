@@ -1,13 +1,84 @@
 .top-menu {
 	width: 100%;
 	padding-top: 20px;
+	@media screen and (max-width: 960px) {
+		width: auto;
+		padding-top: 0;
+
+		order: 1;
+	}
+	&__mobile {
+		position: relative;
+
+		display: none;
+
+		width: 48px;
+		height: 48px;
+
+		opacity: .8;
+		border-right: 1px solid rgba(255,255,255, .3);
+		&:before {
+			top: 10px;
+			left: 11px;
+
+			@include content;
+			@include bg($menu-mobile);
+		}
+		&.active {
+			background: linear-gradient(to bottom, $brown - #222, $brown);
+			&:before {
+				top: 16px;
+				left: 16px;
+
+				@include bg($close-mobile);
+			}
+		}
+		@media screen and (max-width: 960px) {
+			display: block;
+		}
+	}
+	&__fixed {
+		@media screen and (max-width: 960px) {
+			position: fixed;
+			z-index: 99;
+			left: -75%;
+
+			visibility: hidden;
+			overflow-y: scroll;
+
+			width: 75%;
+			height: 100%;
+
+			opacity: 0;
+			background: $brown - #222;
+
+			@include transition;
+			&.active {
+				left: 0;
+
+				visibility: visible;
+
+				opacity: 1;
+			}
+		}
+	}
 	&__list {
 		display: flex;
 
 		justify-content: space-between;
+		@media screen and (max-width: 960px) {
+			display: block;
+		}
 	}
 	&__item {
 		position: relative;
+		@media screen and (max-width: 960px) {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 15px;
+
+			border-bottom: 1px solid rgba(255,255,255, .1);
+		}
 		&:hover {
 			> a {
 				color: $yellow;
@@ -29,6 +100,9 @@
 			line-height: 1;
 
 			@include transition;
+			@media screen and (max-width: 960px) {
+				border-bottom: none;
+			}
 			@media screen and (max-width: 1024px) {
 				font-size: em(12px);
 			}
@@ -42,6 +116,9 @@
 
 				@include bg($menu-drop);
 				@include content;
+				@media screen and (max-width: 960px) {
+					display: none;
+				}
 			}
 			&:hover {
 				&:after {
@@ -77,6 +154,22 @@
 		@media screen and (max-width: 1024px) {
 			padding-right: 10px;
 		}
+		@media screen and (max-width: 960px) {
+			position: relative;
+			top: 0;
+			left: 0;
+
+			visibility: visible;
+
+			box-sizing: border-box;
+			padding-top: 5px;
+			padding-bottom: 0;
+			padding-left: 10px;
+
+			opacity: 1;
+			border: 0;
+			background: transparent;
+		}
 		a {
 			display: block;
 
@@ -87,6 +180,9 @@
 			border-bottom: none;
 
 			@include transition;
+			@media screen and (max-width: 960px) {
+				padding-bottom: 5px;
+			}
 			&:hover {
 				color: $yellow;
 			}

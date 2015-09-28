@@ -1,0 +1,58 @@
+.pagination {
+	padding-top: 25px;
+	padding-bottom: 15px;
+
+	text-align: center;
+	&__item {
+		display: inline-block;
+
+		width: 25px;
+		height: 25px;
+		margin-right: 3px;
+
+		vertical-align: middle;
+		text-decoration: none;
+
+		color: $brown;
+		border: 1px solid transparent;
+
+		font-size: em(18px) !important;
+		line-height: 25px !important;
+		&:hover {
+			border-bottom: 1px solid $yellow;
+		}
+		&--current {
+			background: $yellow;
+
+			font-family: "PTSans-Bold";
+		}
+		&--prev,
+		&--next {
+			position: relative;
+
+			width: auto;
+			margin: 0 20px;
+
+			font-size: em(16px);
+			&:before {
+				top: 8px;
+
+				@include content;
+			}
+		}
+		&--prev {
+			&:before {
+				left: -20px;
+
+				@include bg($left);
+			}
+		}
+		&--next {
+			&:before {
+				right: -20px;
+
+				@include bg($right);
+			}
+		}
+	}
+}

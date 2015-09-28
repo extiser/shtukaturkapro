@@ -6,13 +6,14 @@ mixin footer(data)
 				p Штукатурка дома своими руками
 				p Копирование и использование материалов запрещено!
 			.footer-menu
-				a(href="#" title="").footer-menu__item О проекте
-				a(href="#" title="").footer-menu__item Обратная связь
+				a(href="/about.html" title="").footer-menu__item О проекте
+				a(href="/feedback.html" title="").footer-menu__item Обратная связь
 				a(href="#" title="").footer-menu__item Реклама на проекте
-				a(href="#" title="").footer-menu__item Карта сайта
+				a(href="/sitemap.html" title="").footer-menu__item Карта сайта
 			.footer-counters
 				img(src="%=staticPrefix=%images/content/yandex-metrika.jpg" alt="")
 				img(src="%=staticPrefix=%images/content/liveinternet.jpg" alt="")
+	.mask
 	//- Main scripts. You can replace it, but I recommend you to leave it here
-	script(src='http://yastatic.net/jquery/1.11.2/jquery.min.js')
+	script(src='http://yastatic.net/jquery/2.1.4/jquery.min.js')
 	script(src='%=staticPrefix=%js/main%=hash=%%=min=%.js')

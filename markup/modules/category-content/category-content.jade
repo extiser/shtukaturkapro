@@ -1,0 +1,27 @@
+mixin category-content()
+	section.category-content
+		+breadcrumbs('category')
+		h1 Виды штукатурки
+
+		.inside-category
+			a(href="#" title="").inside-category__item Декоративная
+			a(href="#" title="").inside-category__item Венецианская
+			a(href="#" title="").inside-category__item Фактурная
+			a(href="#" title="").inside-category__item Гипсовая
+			a(href="#" title="").inside-category__item Фасадная
+			a(href="#" title="").inside-category__item Другие виды
+
+		.category-content__text
+			p Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur", и занялся его поисками в классической латинской литературе. 
+
+		.sort
+			.sort__title Сортировать
+			a(href="#" title="").sort__item.desc по популярности
+			a(href="#" title="").sort__item по дате
+
+			//- a(href="#" title="").sort__item.asc по популярности
+			//- a(href="#" title="").sort__item.desc по дате
+
+		+last-articles()
+
+		+pagination()

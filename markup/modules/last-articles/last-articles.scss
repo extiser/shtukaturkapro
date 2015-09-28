@@ -16,17 +16,24 @@
 	&__content {
 		position: relative;
 
+		width: 80%;
 		padding-top: 5px;
 		padding-right: 15px;
 		padding-left: 37px;
 
 		order: 1;
+		@media screen and (max-width: 320px) {
+			padding-left: 0;
+		}
 		&:before {
 			top: 0;
 			left: 0;
 
 			@include bg($doc);
 			@include content;
+			@media screen and (max-width: 320px) {
+				display: none;
+			}
 		}
 	}
 	&__link {
@@ -56,5 +63,9 @@
 
 		font-family: "PTSans-Italic";
 		font-size: em(12px);
+		@media screen and (max-width: 320px) {
+			margin-top: 5px;
+			margin-left: 0;
+		}
 	}
 }

@@ -1,0 +1,23 @@
+.social {
+	display: flex;
+
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 15px;
+
+	border: 1px dashed #cecece;
+
+	align-items: center;
+	justify-content: space-between;
+	&__title {
+		margin-right: 15px;
+		padding-left: 15px;
+
+		color: #444;
+
+		font-size: em(18px);
+	}
+	&__widget {
+		padding-right: 25px;
+	}
+}

@@ -1,15 +1,6 @@
 .last-questions {
 	margin-top: 25px;
 	&__title {
-		// padding-left: 32px;
-		position: relative;
-		// &:before {
-		// 	@include content;
-		// 	@include bg($question-last);
-		// 	left: 0;
-		// 	top: 5px;
-		// }
-
 		margin-bottom: 15px;
 
 		text-align: center;
@@ -24,6 +15,9 @@
 		margin-bottom: 10px;
 		padding-left: 20px;
 
+		font-size: em(15px);
+		line-height: em(18px, 15px);
+
 		@extend .link;
 		&:before {
 			top: 4px;
@@ -33,8 +27,4 @@
 			@include bg($question-link);
 		}
 	}
-	// &__all-questions {
-	// 	@extend .link;
-	// 	font-family: "PTSans-Italic";
-	// }
 }

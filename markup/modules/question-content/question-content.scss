@@ -1,0 +1,16 @@
+.question-content {
+	@extend .left-side;
+	@extend .seo-text;
+}
+
+.question-content-specialist {
+	float: left;
+
+	width: 230px;
+	margin-top: 15px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	.specialist-list-item {
+		width: 100%;
+	}
+}

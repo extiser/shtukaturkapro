@@ -1,0 +1,29 @@
+.breadcrumbs {
+	&__item {
+		position: relative;
+
+		padding-left: 15px;
+
+		font-size: em(12px);
+
+		@extend .link;
+		&:before {
+			top: 6px;
+			left: 5px;
+
+			@include content;
+			@include bg($next);
+		}
+		&--home {
+			padding-left: 0;
+			&:before {
+				display: none;
+			}
+		}
+		&--current {
+			text-decoration: none;
+
+			color: #444;
+		}
+	}
+}

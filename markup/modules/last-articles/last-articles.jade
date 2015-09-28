@@ -1,40 +1,12 @@
 mixin last-articles()
 	section.last-articles
+		- for (var i = 0; i < 6; i++) {
 		.last-articles-item
-			img(src="%=staticPrefix=%images/content/last-article.jpg" alt="").last-articles-item__img
+			.last-articles-item__img
+				img(src="//www.placehold.it/106x106/EFEFEF/AAAAAA")
 			.last-articles-item__content
-				a(href="#" title="").last-articles-item__link Летние инфекции: как себя уберечь? 
+				a(href="/single.html" title="").last-articles-item__link Летние инфекции: как себя уберечь? 
 				p.last-articles-item__text Под рефракционной хирургией понимают офтальмологические операции, в результате которых у пациента изменяется вся сила преломления света глаза, чтобы, благодаря этому
 				.last-articles-item__category Выбор инструментов
 				.last-articles-item__date 24.08.15
-		.last-articles-item
-			img(src="%=staticPrefix=%images/content/last-article.jpg" alt="").last-articles-item__img
-			.last-articles-item__content
-				a(href="#" title="").last-articles-item__link Боли в области бедра поможет ли мне назначенное лечение?
-				p.last-articles-item__text Под рефракционной хирургией понимают офтальмологические операции, в результате которых у пациента изменяется вся сила преломления света глаза, чтобы, благодаря этому
-				.last-articles-item__category Выбор инструментов
-				.last-articles-item__date 24.08.15
-		.last-articles-item
-			.last-articles-item__content
-				a(href="#" title="").last-articles-item__link На приеме у эндокринолога. Как получить максимум от любой консультации
-				p.last-articles-item__text Под рефракционной хирургией понимают офтальмологические операции, в результате которых у пациента изменяется вся сила преломления света глаза, чтобы, благодаря этому
-				.last-articles-item__category Выбор инструментов
-				.last-articles-item__date 24.08.15
-		.last-articles-item
-			.last-articles-item__content
-				a(href="#" title="").last-articles-item__link Избавляемся от одышки и кашля с помощью йоги
-				p.last-articles-item__text Под рефракционной хирургией понимают офтальмологические операции, в результате которых у пациента изменяется вся сила преломления света глаза, чтобы, благодаря этому
-				.last-articles-item__category Выбор инструментов
-				.last-articles-item__date 24.08.15
-		.last-articles-item
-			.last-articles-item__content
-				a(href="#" title="").last-articles-item__link Генетические мутации подскажут пути улучшения терапии ревматоидного артрита
-				p.last-articles-item__text Под рефракционной хирургией понимают офтальмологические операции, в результате которых у пациента изменяется вся сила преломления света глаза, чтобы, благодаря этому
-				.last-articles-item__category Выбор инструментов
-				.last-articles-item__date 24.08.15
-		.last-articles-item
-			.last-articles-item__content
-				a(href="#" title="").last-articles-item__link Как избежать развода: научные данные
-				p.last-articles-item__text Под рефракционной хирургией понимают офтальмологические операции, в результате которых у пациента изменяется вся сила преломления света глаза, чтобы, благодаря этому
-				.last-articles-item__category Выбор инструментов
-				.last-articles-item__date 24.08.15
+		- }

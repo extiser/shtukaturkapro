@@ -1,0 +1,34 @@
+.single-content {
+	@extend .left-side;
+	h1 {
+		margin: 10px 0;
+	}
+	article {
+		@extend .seo-text;
+	}
+}
+
+.article-contents {
+	&__title {
+		margin-bottom: 15px;
+
+		color: $brown;
+
+		font-family: "PTSans-Bold";
+		font-size: em(21px);
+	}
+	&__item {
+		margin-left: 15px;
+		padding-left: 15px;
+		&:before {
+			top: 5px;
+
+			@include bg($question-link);
+		}
+		a {
+			font-size: em(18px);
+
+			@extend .link;
+		}
+	}
+}

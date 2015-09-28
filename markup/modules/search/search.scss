@@ -5,6 +5,70 @@
 	@media screen and (max-width: 1024px) {
 		width: 680px;
 	}
+	@media screen and (max-width: 960px) {
+		width: auto;
+
+		box-shadow: none;
+
+		order: 3;
+	}
+	&__mobile {
+		position: relative;
+
+		display: none;
+
+		width: 48px;
+		height: 48px;
+
+		opacity: .8;
+		border-left: 1px solid rgba(255,255,255, .3);
+
+		@include transition;
+		&:before {
+			top: 10px;
+			left: 12px;
+
+			@include content;
+			@include bg($search-mobile);
+		}
+		&.active {
+			background: linear-gradient(to bottom, $brown - #222, $brown);
+			&:before {
+				top: 16px;
+				left: 16px;
+
+				@include bg($close-mobile);
+			}
+		}
+		@media screen and (max-width: 960px) {
+			display: block;
+		}
+	}
+	&__form {
+		@media screen and (max-width: 960px) {
+			position: absolute;
+			z-index: 99;
+			top: 48px;
+			right: 0;
+			right: -100%;
+
+			visibility: hidden;
+
+			width: 100%;
+
+			opacity: 0;
+			border-bottom: 3px solid $brown;
+
+			@include transition;
+			&.active {
+				right: 0;
+
+				visibility: visible;
+
+				opacity: 1;
+			}
+		}
+	}
 }
 #ya-site-form0 .ya-site-form__submit {
 	display: block;
@@ -17,7 +81,7 @@
 	background: linear-gradient(#fae569, $yellow);
 	text-shadow: 0 1px 0 #fae569 + #111;
 	&:hover {
-		box-shadow: 0 0 1px $brown;
+		// box-shadow: 0 0 1px $brown;
 	}
 }
 #ya-site-form0 .ya-site-form__form .ya-site-form__input-text {

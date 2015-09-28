@@ -1,0 +1,31 @@
+.sitemap-content {
+	@extend .left-side;
+	h1 {
+		color: $coral;
+
+		font-family: "PTSans-Bold";
+		font-size: em(24px);
+	}
+}
+
+.sitemap-content-list {
+	font-size: em(16px);
+
+	@include nl;
+	&__item {
+		position: relative;
+
+		margin-top: 12px;
+		padding-left: 18px;
+		&:before {
+			top: 5px;
+			left: 0;
+
+			@include bg($question-link);
+			@include content;
+		}
+		a {
+			@extend .link;
+		}
+	}
+}
