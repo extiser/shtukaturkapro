@@ -5,10 +5,16 @@
 
 .last-ask {
 	margin-top: 25px;
+	@media screen and (max-width: 640px) {
+		margin-top: 0;
+	}
 	&__title {
 		margin-bottom: 15px;
 
 		@extend .title;
+		@media screen and (max-width: 640px) {
+			text-align: center;
+		}
 	}
 }
 

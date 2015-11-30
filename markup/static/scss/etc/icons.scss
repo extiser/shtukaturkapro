@@ -1,0 +1,67 @@
+.icon:before,
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  text-transform: none !important;
+
+  font-family: "shtukaturkapro" !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  speak: none;
+}
+
+.icon-check:before {
+  content: "a";
+}
+.icon-close:before {
+  content: "b";
+}
+.icon-doc:before {
+  content: "c";
+}
+.icon-education:before {
+  content: "d";
+}
+.icon-left:before {
+  content: "e";
+}
+.icon-menu:before {
+  content: "f";
+}
+.icon-next:before {
+  content: "h";
+}
+.icon-question:before {
+  content: "i";
+}
+.icon-question-btn:before {
+  content: "j";
+}
+.icon-question-last:before {
+  content: "k";
+}
+.icon-right:before {
+  content: "l";
+}
+.icon-search-mobile:before {
+  content: "m";
+}
+.icon-sort-asc:before {
+  content: "n";
+}
+.icon-sort-desc:before {
+  content: "o";
+}
+.icon-menu-drop:before {
+  content: "q";
+}
+.icon-menu-drop-active:before {
+  content: "g";
+}
+.icon-question-link:before {
+  content: "p";
+}

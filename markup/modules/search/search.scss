@@ -23,21 +23,27 @@
 		opacity: .8;
 		border-left: 1px solid rgba(255,255,255, .3);
 
+		@extend .icon;
+		@extend .icon-search-mobile;
 		@include transition;
 		&:before {
+			position: absolute;
 			top: 10px;
 			left: 12px;
 
-			@include content;
-			@include bg($search-mobile);
+			color: #fff;
+
+			font-size: 24px;
 		}
 		&.active {
 			background: linear-gradient(to bottom, $brown - #222, $brown);
 			&:before {
-				top: 16px;
-				left: 16px;
+				top: 14px;
+				left: 14px;
 
-				@include bg($close-mobile);
+				font-size: 19px;
+
+				@extend .icon-close;
 			}
 		}
 		@media screen and (max-width: 960px) {
@@ -49,8 +55,7 @@
 			position: absolute;
 			z-index: 99;
 			top: 48px;
-			right: 0;
-			right: -100%;
+			left: 0;
 
 			visibility: hidden;
 

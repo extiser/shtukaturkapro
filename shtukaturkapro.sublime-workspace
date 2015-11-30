@@ -4,15 +4,31 @@
 		"selected_items":
 		[
 			[
+				"marign",
+				"margin"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
 				"margin",
 				"margin-top"
 			],
 			[
-				"padd",
-				"padding-left"
+				"ma",
+				"margin-bottom"
 			],
 			[
-				"pad",
+				"te",
+				"text-align"
+			],
+			[
+				"padd",
 				"padding-left"
 			],
 			[
@@ -28,24 +44,12 @@
 				"sitemap-content-list"
 			],
 			[
-				"te",
-				"text-transform"
-			],
-			[
-				"ma",
-				"margin"
-			],
-			[
 				"qu",
 				"question"
 			],
 			[
 				"que",
 				"question-list-search"
-			],
-			[
-				"marign",
-				"margin-top"
 			],
 			[
 				"p",
@@ -510,23 +514,11 @@
 			[
 				"mar",
 				"margin"
-			],
-			[
-				"conf",
-				"confirm"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "markup/static/scss/common.scss",
-			"settings":
-			{
-				"buffer_size": 2443,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -607,55 +599,63 @@
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/shtukaturkapro/markup/modules/question-content/question-content.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/pages/sitemap.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/question-list-content/question-list-content.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/questions/questions.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/last-articles/last-articles.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/sidebar/sidebar.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/last-questions/last-questions.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/similar-articles/similar-articles.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/feedback-content/feedback-content.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/specialist-list/specialist-list.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/ask-content/ask-content.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/banner-sidebar/banner-sidebar.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/social-widget/social-widget.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/popular-articles/popular-articles.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/sidebar/sidebar.jade",
+		"/Users/extiser/git/insight/tars/dev/catalog-franchise.html",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/similar-articles/similar-articles.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/popular-articles/popular-articles.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/last-articles/last-articles.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/social/social.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/static/scss/common.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/pagination/pagination.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/category-content/category-content.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/header/header.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/search/search.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/footer/footer.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/search/search.js",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/top-menu/top-menu.js",
-		"/Users/extiser/git/shtukaturkapro/markup/modules/search/search.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/top-menu/top-menu.scss",
-		"/Users/extiser/git/shtukaturkapro/markup/modules/header/header.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/top-menu/top-menu.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/footer/footer.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/ask-content/ask-content.js",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/search/search.jade",
-		"/Users/extiser/git/shtukaturkapro/markup/modules/sidebar/sidebar.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/seo-text/seo-text.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/calculator-list/calculator-list.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/calculator-list/calculator-list.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/last-questions/last-questions.jade",
-		"/Users/extiser/git/shtukaturkapro/markup/modules/last-questions/last-questions.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/include/include.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/sitemap-content/sitemap-content.scss",
-		"/Users/extiser/git/shtukaturkapro/markup/pages/sitemap.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/sitemap-content/sitemap-content.jade",
-		"/Users/extiser/git/shtukaturkapro/markup/modules/feedback-content/feedback-content.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/feedback-content/feedback-content.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/ask-content/ask-content.jade",
-		"/Users/extiser/git/shtukaturkapro/markup/modules/ask-content/ask-content.scss",
-		"/Users/extiser/git/shtukaturkapro/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/pages/about.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/about-content/about-content.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/about-content/about-content.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/single-content/single-content.scss",
-		"/Users/extiser/git/shtukaturkapro/markup/modules/question-list-content/question-list-content.scss",
-		"/Users/extiser/git/shtukaturkapro/markup/modules/question-content/question-content.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/p404-content/p404-content.scss",
-		"/Users/extiser/git/shtukaturkapro/markup/modules/category-content/category-content.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/questions/questions.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/pages/question-list.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/question-list-content/question-list-content.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/question-content/question-content.jade",
-		"/Users/extiser/git/shtukaturkapro/markup/modules/specialist-list/specialist-list.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/pages/ask.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/specialist-list/specialist-list.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/ask-content/aks-content.js",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/ask-question-content/ask-question-content.jade",
-		"/Users/extiser/git/shtukaturkapro/markup/modules/last-articles/last-articles.jade",
-		"/Users/extiser/git/shtukaturkapro/markup/modules/popular-articles/popular-articles.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/social/social.jade",
-		"/Users/extiser/git/shtukaturkapro/markup/modules/social/social.scss",
-		"/Users/extiser/git/shtukaturkapro/markup/modules/pagination/pagination.scss",
 		"/Users/extiser/git/podryad/markup/modules/search-contractor-content/search-contractor-content.jade",
 		"/Users/extiser/git/podryad/markup/modules/include/include.jade",
 		"/Users/extiser/git/podryad/markup/modules/header/header.jade",
@@ -726,15 +726,7 @@
 		"/Users/extiser/git/amkodor-lp/markup/modules/product-list-content/product-list-content.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/spare-part-content/spare-part-content.scss",
 		"/Users/extiser/git/amkodor-lp/markup/modules/modals/modals.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/modals/modals.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/spare-part-content/spare-part-content.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/spares-content/spares-content.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/spares-content/spares-content.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/header/header.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/header/header.jade",
-		"/Users/extiser/git/amkodor-lp/markup/pages/inside-page.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/inside-page-content/inside-page-content.scss",
-		"/Users/extiser/git/amkodor-lp/markup/pages/catalog-noslide.jade"
+		"/Users/extiser/git/amkodor-lp/markup/modules/modals/modals.jade"
 	],
 	"find":
 	{
@@ -753,6 +745,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"//www.placehold.it/82x82/EFEFEF/AAAAAA",
 			"li",
 			"label",
 			"a(href='#', title='') ",
@@ -879,8 +872,7 @@
 			"loop",
 			"products",
 			"bread",
-			"Велоакс",
-			"Вело"
+			"Велоакс"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -888,6 +880,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"http://www.placehold.it/82x82/EFEFEF/AAAAAA",
 			".sitemap-content-list__item",
 			"",
 			"label.filter-item ",
@@ -1014,8 +1007,7 @@
 			"images/",
 			"font/",
 			"/font/",
-			"/images/",
-			"images/"
+			"/images/"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1026,40 +1018,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "markup/static/scss/common.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2443,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								2443
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.dark.tmTheme",
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 586.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

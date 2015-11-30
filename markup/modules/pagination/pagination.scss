@@ -3,6 +3,9 @@
 	padding-bottom: 15px;
 
 	text-align: center;
+	@media screen and (max-width: 960px) {
+		padding-bottom: 0;
+	}
 	&__item {
 		display: inline-block;
 
@@ -34,24 +37,36 @@
 			margin: 0 20px;
 
 			font-size: em(16px);
+
+			@extend .icon;
 			&:before {
+				position: absolute;
 				top: 8px;
 
-				@include content;
+				color: $brown;
+
+				font-size: 10px;
+				@media screen and (max-width: 960px) {
+					right: 0;
+					left: 0;
+				}
+			}
+			@media screen and (max-width: 960px) {
+				margin: 0 5px;
+
+				text-indent: -9999px;
 			}
 		}
 		&--prev {
+			@extend .icon-left;
 			&:before {
 				left: -20px;
-
-				@include bg($left);
 			}
 		}
 		&--next {
+			@extend .icon-right;
 			&:before {
 				right: -20px;
-
-				@include bg($right);
 			}
 		}
 	}

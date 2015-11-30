@@ -17,12 +17,17 @@
 
 		margin-top: 12px;
 		padding-left: 18px;
+		@extend .icon;
+		@extend .icon-question-link;
 		&:before {
+			position: absolute;
 			top: 5px;
 			left: 0;
 
-			@include bg($question-link);
-			@include content;
+			color: #e9e1da;
+			background-color: #615850;
+
+			font-size: 12px;
 		}
 		a {
 			@extend .link;

@@ -24,6 +24,10 @@
 
 	color: #fff;
 	background: linear-gradient(to bottom, $brown + #222, $brown);
+	@media screen and (max-width: 640px) {
+		width: 100%;
+		margin-bottom: 20px;
+	}
 	&__title {
 		margin-bottom: 15px;
 

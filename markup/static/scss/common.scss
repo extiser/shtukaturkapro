@@ -5,6 +5,9 @@ body {
 	background: url(%=staticPrefixForCss=%general/bg.png);
 
 	font-family: "PTSans-Regular";
+	@media screen and (max-width: 960px) {
+		background: transparent;
+	}
 	&.active {
 		overflow: hidden;
 	}
@@ -55,6 +58,11 @@ body {
 	@extend .wrapper;
 	justify-content: space-between;
 	@media screen and (max-width: 960px) {
+		margin-top: 0;
+		padding-top: 15px;
+
+		box-shadow: none;
+
 		flex-wrap: wrap;
 	}
 }
@@ -64,6 +72,10 @@ body {
 
 	width: 790px;
 	padding: 0 25px;
+	@media screen and (max-width: 960px) {
+		width: 100%;
+		padding: 0 15px;
+	}
 	&:after {
 		z-index: 0;
 		top: -25px;
@@ -111,12 +123,17 @@ body {
 	ul {
 		li {
 			padding-left: 25px;
+
+			@extend .icon-check;
+			@extend .icon;
 			&:before {
+				position: absolute;
 				top: 3px;
 				left: 0;
 
-				@include content;
-				@include bg($check);
+				color: $brown;
+
+				font-size: 16px;
 			}
 		}
 	}
@@ -151,6 +168,11 @@ body {
 	}
 	figure {
 		text-align: center;
+		img {
+			@media screen and (max-width: 960px) {
+				width: 100%;
+			}
+		}
 	}
 	figcaption {
 		font-family: "PTSans-Italic";
@@ -160,6 +182,9 @@ body {
 		display: block;
 
 		margin: 15px auto;
+		@media screen and (max-width: 960px) {
+			width: 100%;
+		}
 	}
 	blockquote {
 		position: relative;
@@ -168,17 +193,22 @@ body {
 		padding: 15px 25px 15px 70px;
 
 		border: 1px solid #cecece;
+
+		@extend .icon;
+		@extend .icon-education;
 		p {
 			margin: 0;
 
 			font-size: em(16px);
 		}
 		&:before {
+			position: absolute;
 			top: 20px;
 			left: 20px;
 
-			@include bg($blockquote);
-			@include content;
+			color: $brown;
+
+			font-size: 32px;
 		}
 	}
 }

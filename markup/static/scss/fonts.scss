@@ -1,4 +1,14 @@
 @font-face {
+  font-family: "shtukaturkapro";
+  src: url("../fonts/shtukaturkapro.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/shtukaturkapro.woff") format("woff"),
+       url("../fonts/shtukaturkapro.ttf") format("truetype"),
+       url("../fonts/shtukaturkapro.svg#shtukaturkapro") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'PTSans-Bold';
   src: url('../fonts/PTSans-Bold.eot?#iefix') format('embedded-opentype'),  
   	   url('../fonts/PTSans-Bold.woff') format('woff'), 

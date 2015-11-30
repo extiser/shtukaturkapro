@@ -1,6 +1,7 @@
 mixin sidebar(data)
-	aside.sidebar
-		- if (data == undefined) {
+	- if (data == undefined) data = ''
+	aside.sidebar(class="#{data}")
+		- if (data == '') {
 		+questions()
 		+last-questions()
 		- }
