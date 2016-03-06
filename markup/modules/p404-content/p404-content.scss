@@ -1,0 +1,52 @@
+.p404-content {
+	width: 100%;
+	padding-top: 30px;
+	padding-right: 25px;
+	padding-left: 25px;
+
+	@extend .seo-text;
+	@media screen and (max-width: 960px) {
+		padding-top: 10px;
+	}
+	h1,
+	h2 {
+		margin: 15px 0;
+
+		color: $brown;
+		@media screen and (max-width: 960px) {
+			text-align: center;
+		}
+	}
+	&__error {
+		text-align: center;
+	}
+	&__404 {
+		color: $coral;
+
+		font-family: "PTSans-Bold";
+		font-size: em(92px);
+		line-height: 82px;
+		@media screen and (max-width: 960px) {
+			font-size: em(72px);
+		}
+	}
+	&__btn {
+		display: block;
+
+		width: 215px;
+		height: 45px;
+		margin: 30px auto;
+
+		text-align: center;
+		text-decoration: none !important;
+
+		color: #fff !important;
+		background-color: $coral;
+
+		font-size: em(17px);
+		line-height: 45px;
+		&:hover {
+			background-color: $coral + #111;
+		}
+	}
+}

@@ -1,0 +1,1116 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"marign",
+				"margin-bottom"
+			],
+			[
+				"plas",
+				"plastersBrandSelected"
+			],
+			[
+				"plasterRa",
+				"plastersRateMax"
+			],
+			[
+				"pls",
+				"plaster"
+			],
+			[
+				"plastes",
+				"plastersRateOneMin"
+			],
+			[
+				"pla",
+				"plastersBrandSelectedOneMin"
+			],
+			[
+				"wi",
+				"widthWall"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"v",
+				"value	(calculator-plaster.jade)"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"marin",
+				"margin-bottom"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"block",
+				"blockquote	<blockquote>"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"be",
+				"before"
+			],
+			[
+				"poin",
+				"pointer"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"штукату",
+				"штукатурки"
+			],
+			[
+				"si",
+				"sitemap-content-list"
+			],
+			[
+				"qu",
+				"question"
+			],
+			[
+				"que",
+				"question-list-search"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"spe",
+				"specialist-list-item__img"
+			],
+			[
+				"sp",
+				"specialist-list-item"
+			],
+			[
+				"las",
+				"last-ask-item"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"border-b",
+				"border-box"
+			],
+			[
+				"ad",
+				"announce-tender-form"
+			],
+			[
+				"an",
+				"announce-tender-form__input"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"se",
+				"search-contractor-content"
+			],
+			[
+				"filter__",
+				"filter__list"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"he",
+				"header-city-select__option"
+			],
+			[
+				"border-",
+				"border-box"
+			],
+			[
+				"sli",
+				"slider-big"
+			],
+			[
+				"port",
+				"portfolio-album"
+			],
+			[
+				"po",
+				"portfolio-album"
+			],
+			[
+				"por",
+				"portfolio-slider"
+			],
+			[
+				"co",
+				"contractor-tabs"
+			],
+			[
+				"b",
+				"b7b7b7"
+			],
+			[
+				"border-col",
+				"border-collapse"
+			],
+			[
+				"contractor-tabs-re",
+				"contractor-tabs-reviews-item__rating"
+			],
+			[
+				"contractor-tabs-rev",
+				"contractor-tabs-reviews-item"
+			],
+			[
+				"con",
+				"contractor-tabs"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"top",
+				"top-menu__link"
+			],
+			[
+				"data",
+				"dataShow"
+			],
+			[
+				"inde",
+				"indexTab"
+			],
+			[
+				"flex-",
+				"flex-start"
+			],
+			[
+				"t",
+				"top-menu-inside__link"
+			],
+			[
+				"news",
+				"news-full-content"
+			],
+			[
+				"a",
+				"appendTo"
+			],
+			[
+				"item",
+				"item"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"re",
+				"registration-contractor-form"
+			],
+			[
+				"registration-contractor-form__",
+				"registration-contractor-form__input"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"form",
+				"form__label"
+			],
+			[
+				"fn",
+				"font-size"
+			],
+			[
+				"ou",
+				"outline"
+			],
+			[
+				"fo",
+				"form__input"
+			],
+			[
+				"fom",
+				"form__label"
+			],
+			[
+				"magi",
+				"margin-bottom"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"spa",
+				"spares-content-links"
+			],
+			[
+				"s",
+				"spares-content-links"
+			],
+			[
+				"caa",
+				"catalog-content-item"
+			],
+			[
+				"cata",
+				"catalog-content-item"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"cli",
+				"clients-list__item"
+			],
+			[
+				"ho",
+				"how__item"
+			],
+			[
+				"magrin",
+				"margin-left"
+			],
+			[
+				"ser",
+				"services__item"
+			],
+			[
+				"sl",
+				"slider__item"
+			],
+			[
+				"slide",
+				"slider"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"ca",
+				"cart-content-modification"
+			],
+			[
+				"car",
+				"cart-content"
+			],
+			[
+				"st",
+				"structure-inner-content"
+			],
+			[
+				"marig",
+				"margin-left"
+			],
+			[
+				"catal",
+				"catalog-tabs-content-box"
+			],
+			[
+				"cat",
+				"catalog-tabs-content"
+			],
+			[
+				"new",
+				"news-line-item"
+			],
+			[
+				"top-",
+				"top-menu-inside__title"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"border-c",
+				"border-collapse"
+			],
+			[
+				"margn",
+				"margin-top"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"li",
+				"list-style-position"
+			],
+			[
+				"border-bott",
+				"border-bottom"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"me",
+				"menu__item"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"ob",
+				"object-content-description"
+			],
+			[
+				"obj",
+				"object-content"
+			],
+			[
+				"obje",
+				"object-content-slider"
+			],
+			[
+				"menu",
+				"menu__mobile-icon"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"c",
+				"carousel__item"
+			],
+			[
+				"main",
+				"main-slider-bottom"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"foo",
+				"footer"
+			],
+			[
+				"foote",
+				"footer-social__item"
+			],
+			[
+				"footer",
+				"footer-social"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "Package Control: instal",
+		"selected_items":
+		[
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"new",
+				"Tasks: New"
+			],
+			[
+				":",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 526.0,
+		"history":
+		[
+			"cd e:/git/svadbavo-2015/",
+			"update",
+			"export LC_NUMERIC=C",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"view.settings().get('syntax')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/extiser/git/shtukaturkapro/markup",
+		"/Users/extiser/git/shtukaturkapro/markup/modules",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/banner-sidebar",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/footer",
+		"/Users/extiser/git/shtukaturkapro/markup/pages",
+		"/Users/extiser/git/shtukaturkapro/markup/static",
+		"/Users/extiser/git/shtukaturkapro/markup/static/scss"
+	],
+	"file_history":
+	[
+		"/Users/extiser/git/shtukaturkapro/markup/modules/footer/footer.scss",
+		"/Users/extiser/Dropbox/base.sql",
+		"/Users/extiser/MAMP/shtukaturkapro.dev/base.sql",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/questions/questions.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/last-questions/last-questions.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/banner-sidebar/banner-sidebar.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/social-widget/social-widget.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/static/scss/common.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/calculator-plaster/calculator-plaster.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/calculator-plaster/calculator-plaster.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/single-content/single-content.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/calculator-plaster/calculator-plaster.js",
+		"/Users/extiser/git/shtukaturkapro/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/ask-content/ask-content.scss",
+		"/Users/extiser/Work/shtukaturkapro.ru/shtukaturkapro-master/production/calculators.html",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/single-content/calculators.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/single-content/calculators.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/ask-content/ask-content.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/include/include.jade",
+		"/Users/extiser/Work/shtukaturkapro.ru/shtukaturkapro-master/production/css/style.css",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/single-content/calculator.js",
+		"/Users/extiser/git/shtukaturkapro/markup/static/scss/etc/icons.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/breadcrumbs/breadcrumbs.scss",
+		"/Users/extiser/git/shtukaturkapro/builds/feedback.html",
+		"/Users/extiser/git/shtukaturkapro/builds/ask.html",
+		"/Users/extiser/git/shtukaturkapro/builds/sitemap.html",
+		"/Users/extiser/git/shtukaturkapro/builds/single.html",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/p404-content/p404-content.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/p404-content/p404-content.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/pages/404.jade",
+		"/Users/extiser/git/shtukaturkapro/builds/category.html",
+		"/Users/extiser/git/shtukaturkapro/builds/index.html",
+		"/Users/extiser/git/shtukaturkapro/markup/pages/sitemap.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/pages/single.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/pages/question.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/pages/question-list.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/pages/index.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/pages/feedback.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/pages/category.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/pages/ask.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/pages/about.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/similar-articles/similar-articles.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/seo-text/seo-text.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/popular-articles/popular-articles.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/main-content/main-content.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/last-articles/last-articles.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/comments/comments.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/category-content/category-content.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/sitemap-content/sitemap-content.scss",
+		"/Users/extiser/MAMP/shtukaturkapro.dev/assets/templates/modxhost/modxhost.tpl",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/single-content/single-content.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/pagination/pagination.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/category-content/category-content.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/search/search.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/top-menu/top-menu.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/last-articles/last-articles.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/question-content/question-content.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/question-list-content/question-list-content.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/sidebar/sidebar.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/similar-articles/similar-articles.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/feedback-content/feedback-content.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/specialist-list/specialist-list.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/popular-articles/popular-articles.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/sidebar/sidebar.jade",
+		"/Users/extiser/git/insight/tars/dev/catalog-franchise.html",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/social/social.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/header/header.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/search/search.js",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/top-menu/top-menu.js",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/top-menu/top-menu.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/ask-content/ask-content.js",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/search/search.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/calculator-list/calculator-list.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/calculator-list/calculator-list.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/last-questions/last-questions.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/sitemap-content/sitemap-content.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/feedback-content/feedback-content.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/about-content/about-content.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/about-content/about-content.scss",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/questions/questions.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/question-list-content/question-list-content.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/question-content/question-content.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/specialist-list/specialist-list.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/ask-content/aks-content.js",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/ask-question-content/ask-question-content.jade",
+		"/Users/extiser/git/shtukaturkapro/markup/modules/social/social.jade",
+		"/Users/extiser/git/podryad/markup/modules/search-contractor-content/search-contractor-content.jade",
+		"/Users/extiser/git/podryad/markup/modules/include/include.jade",
+		"/Users/extiser/git/podryad/markup/modules/header/header.jade",
+		"/Users/extiser/git/podryad/markup/modules/header/header.scss",
+		"/Users/extiser/git/podryad/markup/modules/header/header.js",
+		"/Users/extiser/git/podryad/markup/modules/top-menu/top-menu.scss",
+		"/Users/extiser/git/podryad/markup/modules/contractor-content/contractor-content.scss",
+		"/Users/extiser/git/podryad/markup/modules/contractor-content/contractor-content.jade",
+		"/Users/extiser/git/podryad/markup/modules/contractor-content/contractor-content.js",
+		"/Users/extiser/git/podryad/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/podryad/markup/modules/contractor-content/swipebox.scss",
+		"/Users/extiser/git/podryad/markup/modules/top-menu/top-menu.jade",
+		"/Users/extiser/git/podryad/markup/modules/contractor-content/contractor-block.scss",
+		"/Users/extiser/git/podryad/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/podryad/markup/pages/contractor.jade",
+		"/Users/extiser/git/podryad/markup/pages/index.jade",
+		"/Users/extiser/git/podryad/markup/pages/news.jade",
+		"/Users/extiser/git/podryad/markup/pages/news-full.jade",
+		"/Users/extiser/git/podryad/markup/modules/news-full-content/news-full-content.jade",
+		"/Users/extiser/git/podryad/markup/modules/news-full-content/news-full-content.scss",
+		"/Users/extiser/git/podryad/markup/modules/news-content/news-content.jade",
+		"/Users/extiser/git/podryad/markup/modules/news-content/news-content.scss",
+		"/Users/extiser/git/podryad/markup/modules/seo-text/seo-text.scss",
+		"/Users/extiser/git/podryad/markup/modules/service/service.scss",
+		"/Users/extiser/git/podryad/markup/static/scss/common.scss",
+		"/Users/extiser/git/podryad/markup/modules/modals/modals.js",
+		"/Users/extiser/git/podryad/markup/modules/registration-contractor-content/registration-contractor-content.jade",
+		"/Users/extiser/git/podryad/markup/modules/registration-contractor-content/registration-contractor-content.scss",
+		"/Users/extiser/git/podryad/markup/modules/modals/modals.scss",
+		"/Users/extiser/git/podryad/markup/modules/modals/modals.jade",
+		"/Users/extiser/git/podryad/markup/pages/registration-contractor.jade",
+		"/Users/extiser/git/podryad/markup/modules/main-img/main-img.jade",
+		"/Users/extiser/.Trash/markup/modules/modals/modals.jade",
+		"/Users/extiser/git/podryad/markup/modules/footer/footer.scss",
+		"/Users/extiser/git/podryad/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/request/request.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/request-now/request-now.scss",
+		"/Users/extiser/git/amkodor-lp/markup/modules/inside-page-content/inside-page-content.jade",
+		"/Users/extiser/git/amkodor-lp/markup/pages/catalog.jade",
+		"/Users/extiser/git/amkodor-lp/markup/pages/spares.jade"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/extiser/git/shtukaturkapro/markup/modules",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"<p align=\"right\">",
+			" nowrap=\"nowrap\" valign=\"bottom\"",
+			" nowrap=\"nowrap\" valign=\"top\"",
+			" valign=\"bottom\"",
+			"-",
+			"  td",
+			"  th",
+			"		<tr>",
+			"</tr>",
+			"<tr>",
+			"<td>",
+			"<td>\n",
+			" width=\"112\"",
+			" width=\"160\"",
+			" width=\"104\"",
+			"\n<p>",
+			"</p>\n",
+			"<p align=\"center\">",
+			"\n",
+			"\n</td>",
+			"<p>",
+			"</p>",
+			"<p align=\"center\">",
+			"  option",
+			"sprite",
+			"list-calculators-form",
+			"respectHidemenu",
+			";\n",
+			"$question-link",
+			"fontsfonts",
+			"//www.placehold.it/82x82/EFEFEF/AAAAAA",
+			"li",
+			"label",
+			"a(href='#', title='') ",
+			"PTSans-Italic",
+			"PTSans-Regular",
+			"li -",
+			"em",
+			".jpg",
+			"http://extiser.github.io/amkodor/builds//",
+			".structure-content-item",
+			".product-list-content-sidebar-category",
+			"li",
+			"</li>",
+			"			<li>",
+			"https",
+			"</p>",
+			"			<p>",
+			"@media screen and (max-width: 768px) {",
+			"@media screen and (max-width: 480px) {",
+			";\n",
+			"h1",
+			"Custom-Font",
+			"}",
+			"ico",
+			".hide-mobile",
+			"h1",
+			"1",
+			"ul",
+			".hide",
+			"#SkypeButton_Call_vageik_1",
+			"__block",
+			"row",
+			".row",
+			"unisans",
+			".small-article",
+			"a(href=\"#\" ",
+			"ul",
+			"search",
+			"onThumbnailsClick",
+			"pswp",
+			"pswp__item",
+			"openPhotoSwipe",
+			"Thumbnail",
+			"parse",
+			"parseThumbnailElements",
+			".col-lg-11.col-xs-12.col-md-12",
+			".col-lg-1.hidden-xs",
+			".col-lg-1.hidden-xs.hidden-md",
+			".col-lg-11.col-lg-offset-1.col-xs-12.col-md-12",
+			".col-xs-12",
+			".col-md",
+			".col-xs-12",
+			".visible-xs-block.visible-md-block",
+			".visible-xs-block",
+			".title",
+			"8",
+			"send",
+			"$blue",
+			"-webkit-margin-before: 1em;",
+			"HelveticaNeueCyrBold",
+			"../static/images/",
+			"&--individualcreate",
+			"&--momentglory",
+			"&--threecolors",
+			"&--theone",
+			"&--bigdisplay",
+			"../images/",
+			".art-menu",
+			".art-menu ul li",
+			"parent",
+			"paren",
+			"content-row-l",
+			"content-row-f",
+			"content-row2",
+			"content-row1",
+			".art-menu a",
+			"\"",
+			"$",
+			"slides",
+			"'",
+			"brow",
+			"localhost",
+			"art-postheader",
+			"jquery",
+			"migrate",
+			"jquery",
+			".show_me_the_map",
+			"jquery",
+			"uslugi3",
+			"top-orange",
+			"sidebar",
+			"margin-top: -37px;",
+			"sidebar-left",
+			".left-sidebar",
+			"art-sheet-body",
+			".subcategory",
+			"art-postheader"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<p>",
+			"",
+			",\n			'max' : ",
+			"	td",
+			"	th",
+			"	<tr>",
+			"	</tr>",
+			"		</tr>",
+			"		<tr>",
+			"		<td>",
+			"<td>",
+			"",
+			"</td>",
+			"",
+			"	option",
+			"fonts",
+			"http://www.placehold.it/82x82/EFEFEF/AAAAAA",
+			".sitemap-content-list__item",
+			"",
+			"label.filter-item ",
+			"ReformaGroteskDemiC",
+			"Calibri",
+			"li",
+			".png",
+			"http://extiser.github.io/amkodor/builds/",
+			"a(href=\"#\" title=\"\").structure-content-item",
+			".product-list-content-sidebar-menu",
+			"li.composition-content-ul__item",
+			"",
+			"li ",
+			"http",
+			"",
+			"p ",
+			"p",
+			"@media screen and (max-width: 800px) {",
+			"@media screen and (max-width: 768px) {",
+			"Lato-Thin",
+			"Lato-Regular",
+			"Lato-Medium",
+			"Lato-Light",
+			"Lato-Heavy",
+			"Lato-Hairline",
+			"Lato-Black",
+			"Lato-Bold",
+			"}",
+			"",
+			"#SkypeButton_Call_redvoronik_1",
+			"__item",
+			"../fonts/unisans",
+			".similar-article",
+			"li.sidebar-nav__item\n				a(href=\"#\" ",
+			".col-xs-12.col-md-12.col-lg-11",
+			".hidden-xs.col-lg-1",
+			".hidden-xs.hidden-md.col-lg-1",
+			".col-xs-12.col-md-12.col-lg-11.col-lg-offset-1",
+			".col-xs-12.col-md-12",
+			".col-lg",
+			"",
+			".visible-xs-block.visible-md-block",
+			".title.visible-xs-block",
+			"#70cfea",
+			"angular",
+			"SegoeUILight",
+			"../images/",
+			"&--individualCreate",
+			"&--momentGlory",
+			"&--threeColors",
+			"&--theOne",
+			"&--bigDisplay",
+			"../static/images/",
+			"contentRowL",
+			"contentRowF",
+			"content-row-l",
+			"content-row-f",
+			"'",
+			"jQuery",
+			"slider",
+			"\"",
+			"uslugi",
+			"/images",
+			"CalendarByWeek",
+			"www.acccentre.ru",
+			"acccentre.ru",
+			"firm-card-tabs-video-album",
+			"acccentre.iqdemo.ru",
+			"javascript:void(0)",
+			".slide__content__title",
+			"",
+			"/images/",
+			"water",
+			"cr_stone_kg",
+			"cr_stone_m",
+			"sand_m",
+			"sand_kg",
+			"sand_m",
+			"cement",
+			"bags",
+			"plaster_kg",
+			"bags",
+			"plaster_kg",
+			"",
+			"option",
+			"",
+			".pagination__item",
+			"order-by",
+			"/images/",
+			"../images/sprite.png",
+			"/images",
+			"/",
+			"/images",
+			"/images/",
+			"",
+			"../images",
+			"",
+			"b-why-you-need",
+			"b-in-photo",
+			"b-why",
+			"03dbaf",
+			"01a987",
+			"03bd97",
+			"<button type=\"button\" class=\"btn btn-success save_redact\">Сохранить</button>\n					            	<button type=\"button\" class=\"btn btn-default cancel_redact\">Отменить</button>",
+			"<button type=\"button\" class=\"btn btn-success save_redact\">Сохранить</button>\n<button type=\"button\" class=\"btn btn-default cancel_redact\">Отменить</button>",
+			"col-xs",
+			"",
+			"class=\"save_redact\"",
+			"class=\"redacting\"",
+			"rows=\"5\"",
+			"parking"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 151.0
+	},
+	"pinned_build_system": "",
+	"project": "shtukaturkapro.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

@@ -1,0 +1,14 @@
+.comments {
+	margin-top: 25px;
+	&__title {
+		width: 100%;
+		margin-bottom: 15px;
+
+		text-transform: uppercase;
+
+		color: $coral;
+
+		font-family: "PTSans-Bold";
+		font-size: em(18px);
+	}
+}

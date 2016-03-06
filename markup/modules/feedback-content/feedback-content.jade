@@ -1,0 +1,12 @@
+mixin feedback-content()
+	.feedback-content
+		+breadcrumbs('page')
+		h1 Обратная связь
+
+		p Для связи с нами заполните, пожалуйста эту форму
+
+		form(method="" action="").form
+			input(type="text" value="" placeholder="Ваше имя").form__input
+			input(type="email" value="" placeholder="Ваш e-mail").form__input
+			textarea(placeholder="Ваше сообщение").form__textarea
+			input(type="submit" value="Отправить").form__submit

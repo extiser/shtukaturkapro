@@ -1,0 +1,73 @@
+.pagination {
+	padding-top: 25px;
+	padding-bottom: 15px;
+
+	text-align: center;
+	@media screen and (max-width: 960px) {
+		padding-bottom: 0;
+	}
+	&__item {
+		display: inline-block;
+
+		width: 25px;
+		height: 25px;
+		margin-right: 3px;
+
+		vertical-align: middle;
+		text-decoration: none;
+
+		color: $brown;
+		border: 1px solid transparent;
+
+		font-size: em(18px) !important;
+		line-height: 25px !important;
+		&:hover {
+			border-bottom: 1px solid $yellow;
+		}
+		&--current {
+			background: $yellow;
+
+			font-family: "PTSans-Bold";
+		}
+		&--prev,
+		&--next {
+			position: relative;
+
+			width: auto;
+			margin: 0 20px;
+
+			font-size: em(16px);
+
+			@extend .icon;
+			&:before {
+				position: absolute;
+				top: 8px;
+
+				color: $brown;
+
+				font-size: 10px;
+				@media screen and (max-width: 960px) {
+					right: 0;
+					left: 0;
+				}
+			}
+			@media screen and (max-width: 960px) {
+				margin: 0 5px;
+
+				text-indent: -9999px;
+			}
+		}
+		&--prev {
+			@extend .icon-left;
+			&:before {
+				left: -20px;
+			}
+		}
+		&--next {
+			@extend .icon-right;
+			&:before {
+				right: -20px;
+			}
+		}
+	}
+}

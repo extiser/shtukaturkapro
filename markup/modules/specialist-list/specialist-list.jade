@@ -1,0 +1,16 @@
+mixin specialist-list()
+	.specialist-list
+		.specialist-list__title Наши специалисты
+		.specialist-list-item
+			img(src="%=staticPrefix=%images/content/specialist-1.jpg" alt="").specialist-list-item__img
+			.specialist-list-item__name Владимир Иванович
+			.specialist-list-item__pro Мастер по работе со штукатуркой более 20 лет
+		.specialist-list-item
+			img(src="%=staticPrefix=%images/content/specialist-2.jpg" alt="").specialist-list-item__img
+			.specialist-list-item__name Александр Савельев
+			.specialist-list-item__pro Маляр со стажем 8 лет
+		.specialist-list-item.specialist-list-item--adv
+			img(src="%=staticPrefix=%images/content/no-specialist.png" alt="").specialist-list-item__img.specialist-list-item__img--adv
+			.specialist-list-item__name Хотите стать нашим экспертом?
+			.specialist-list-item__pro Присылайте свое краткое резюме на 
+				a(href="#" title="") info@shtukaturkapro.ru

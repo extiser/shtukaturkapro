@@ -1,0 +1,8 @@
+mixin similar-articles()
+	.similar-articles
+		.similar-articles__title Рекомендуем к прочтению
+		- for (var i = 0; i < 3; i++) {
+		.similar-articles-item
+			img(src="http://www.placehold.it/240x180/EFEFEF/AAAAAA").similar-articles-item__img
+			a(href="#" title="").similar-articles-item__link Нежелательно увеличивать долю основного
+		- }

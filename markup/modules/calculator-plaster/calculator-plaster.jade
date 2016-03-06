@@ -1,0 +1,113 @@
+mixin calculator-plaster()
+	form(method="" action="").calculator-plaster.form#calculator-plaster
+		.calculator-plaster-block
+			//- .calculator-plaster-block__title Размеры стен:
+
+			label.form__label Длина стен (м.):
+			input(type="text" name="lengthWall" value="").form__input.form__input--calculator#lengthWall
+
+			label.form__label Ширина стен (м.):
+			input(type="text" name="widthWall").form__input.form__input--calculator#widthWall
+
+		.calculator-plaster-block
+			label.form__label Средняя толщина слоя (мм):
+			input(type="text" name="thickness").form__input.form__input--calculator#thickness
+			//- .calculator-plaster-block__title Добавить внутренние стены:
+
+			//- label.form__label Длина внутренних стен (м.):
+			//- input(type="text" name="lengthWallInside").form__input.form__input--calculator#lengthWallInside
+
+			//- label.form__label Ширина внутренних стен (м.):
+			//- input(type="text" name="widthWallInside").form__input.form__input--calculator#widthWallInside
+
+			label.form__label Продукт:
+			select(name="plastersBrand").form__input.form__input--calculator.form__input--select#plastersBrand
+				option(disabled="") Unis
+				option(value="1") Теплон Белый, 30кг
+				option(value="2") Теплон Серый, 30кг
+				option(value="3") Теплон Влагостойкий, 25кг
+				option(value="4") Теплон МН
+				option(value="5") Стандарт Белый
+				option(value="6") Стандарт Серый
+				option(value="7") Силин Фасадный
+				option(value="8") Силин Цокольный
+				option(value="9") Силин для внутренних работ
+				option(value="10") Шуба декор
+				option(value="11") Короед декор
+				option(value="12") Короед декор крупнофракционный
+				
+				option(disabled="") Старатели
+				option(value="13") Mixter
+				option(value="14") Гипсовая
+				option(value="15") Оптимум
+				option(value="16") Гипсовая Белая
+				option(value="17") Цементно-Песчаная Универсальная
+				option(value="18") Гипсовая Машинного Нанесения
+				option(value="19") Цементно-Песчаная
+				option(value="20") Штукатурный обрызг
+				option(value="21") Короед
+				option(value="22") Короед 3мм
+				option(value="23") Шуба
+
+				option(disabled="") Основит
+				option(value="24") ПРОВЭЛЛ Т-20 ШТУКАТУРНЫЙ ОБРЫЗГ
+				option(value="25") СТАРТВЭЛЛ PC21 M
+				option(value="26") СТАРТВЭЛЛ PC21
+				option(value="27") БИГВЭЛЛ Т-22
+				option(value="28") СЛИМВЭЛЛ PC23
+				option(value="29") ФЛАЙВЭЛЛ PC24/1 ML
+				option(value="30") ГИПСВЭЛЛ PG25
+				option(value="31") ГИПСВЭЛЛ PG25 W
+				option(value="32") ГИПСВЭЛЛ PG26 MW
+				option(value="33") ГИПСВЭЛЛ PG26 M
+				
+				option(disabled="") Волма
+				option(value="34") Аквалюкс
+				option(value="35") Люкс
+				option(value="36") Холст
+				option(value="37") Слой
+				option(value="38") Гипс Актив
+				option(value="39") Пласт
+				option(value="40") Цемент Актив
+				option(value="41") Акваслой
+				option(value="42") Аквапласт
+				option(value="43") Цоколь
+				
+				option(disabled="") knauf
+				option(value="44") Ротбанд
+				option(value="45") Гольдбанд
+				option(value="46") МП 75
+				option(value="47") МН Старт
+				option(value="48") ХП Старт
+				option(value="49") Грюнбанд
+				option(value="50") Унтерпутц
+				option(value="51") Зокельпутц
+				option(value="52") Адгезив
+				
+				option(disabled="") Bergauf
+				option(value="53") BAU PUTZ GIPS
+				option(value="54") BAU PUTZ ZEMENT
+				option(value="55") BAU INTERIER
+				option(value="56") PRIMA PUTZ GIPS
+				option(value="57") PRIMA INTERIER
+				option(value="58") PRIMA FACADE
+				option(value="59") EASY PLASTER
+				option(value="60") BAU BLOCK
+				option(value="61") EASY BAND
+				option(value="62") BAU TERMO
+				option(value="63") UNTER BAU
+
+
+		input(type="submit" value="Расчитать").form__submit.form__submit--calculator
+
+		.calculator-plaster-result
+			.calculator-plaster-result__item Площадь поверхности:
+				span#yardage 0
+				span м²
+
+			.calculator-plaster-result__item Количество кг:
+				span#plastersRate 0 
+				span кг
+
+			.calculator-plaster-result__item Количество мешков:
+				span#plastersBag 

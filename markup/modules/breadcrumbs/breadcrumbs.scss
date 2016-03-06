@@ -1,0 +1,36 @@
+.breadcrumbs {
+	&__item {
+		position: relative;
+
+		padding-left: 15px;
+
+		font-size: em(12px);
+
+		@extend .icon-next;
+		@extend .icon;
+		@extend .link;
+		&:before {
+			position: absolute;
+			top: 6px;
+			left: 5px;
+
+			color: #999;
+
+			font-size: 5px;
+		}
+		&--home {
+			padding-left: 0;
+			&:before {
+				display: none;
+			}
+		}
+		&--current {
+			text-decoration: none;
+
+			color: #444;
+			&:hover {
+				cursor: default;
+			}
+		}
+	}
+}

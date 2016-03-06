@@ -1,0 +1,263 @@
+// Common styles of the project
+
+html,
+body {
+	background: url(%=staticPrefixForCss=%general/bg.png);
+
+	font-family: "PTSans-Regular";
+	@media screen and (max-width: 960px) {
+		background: transparent;
+	}
+	&.active {
+		overflow: hidden;
+	}
+}
+
+.wrapper {
+	width: 1200px;
+	margin: auto;
+	@media screen and (max-width: 1024px) {
+		width: 1000px;
+	}
+	@media screen and (max-width: 960px) {
+		width: 100%;
+	}
+}
+
+.mask {
+	position: fixed;
+	z-index: 97;
+	top: 0;
+	left: 0;
+
+	visibility: hidden;
+
+	width: 100%;
+	height: 100%;
+
+	opacity: 0;
+	background: rgba(0,0,0,.3);
+	&.active {
+		visibility: visible;
+
+		opacity: 1;
+	}
+}
+
+.main {
+	display: flex;
+
+	box-sizing: border-box;
+	margin-top: 25px;
+	padding: 25px 0;
+
+	background: #fff;
+	box-shadow: 0 0 8px #d5d5d5;
+
+	align-items: stretch;
+	@extend .wrapper;
+	justify-content: space-between;
+	@media screen and (max-width: 960px) {
+		margin-top: 0;
+		padding-top: 15px;
+
+		box-shadow: none;
+
+		flex-wrap: wrap;
+	}
+}
+
+.left-side {
+	position: relative;
+
+	width: 790px;
+	padding: 0 25px;
+	@media screen and (max-width: 960px) {
+		width: 100%;
+		padding: 0 15px;
+	}
+	&:after {
+		z-index: 0;
+		top: -25px;
+		right: -66px;
+
+		width: 66px;
+		height: 100%;
+		padding-bottom: 50px;
+
+		background: linear-gradient(to right, #f6f4f5 0%, #fff 100%);
+
+		@include content;
+		@media screen and (max-width: 960px) {
+			display: none;
+		}
+	}
+}
+
+.seo-text {
+	h1,
+	h2,
+	h3 {
+		color: $coral;
+
+		font-family: "PTSans-Bold";
+		font-size: em(24px);
+	}
+	h2 {
+		font-family: "PTSans-Regular";
+		font-size: em(21px);
+	}
+	h3 {
+		font-family: "PTSans-Regular";
+		font-size: em(18px);
+	}
+	p,
+	ul,
+	ol {
+		@extend .paragraph;
+	}
+	ul,
+	ol {
+		@include nl;
+		li {
+			position: relative;
+
+			margin-bottom: 10px;
+		}
+	}
+	ul {
+		li {
+			padding-left: 25px;
+
+			@extend .icon-check;
+			@extend .icon;
+			&:before {
+				position: absolute;
+				top: 3px;
+				left: 0;
+
+				color: $brown;
+
+				font-size: 16px;
+			}
+		}
+	}
+	ol {
+		counter-reset: point;
+		li {
+			padding-left: 25px;
+			&:before {
+				position: absolute;
+				top: 3px;
+				left: 0;
+
+				width: 18px;
+				height: 18px;
+
+				content: counter(point);
+				counter-increment: point 1;
+				text-align: center;
+
+				color: #fff;
+				border-radius: 50%;
+				background: $brown;
+
+				font-family: "PTSans-Italic";
+				font-size: 12px;
+				line-height: 18px;
+			}
+		}
+	}
+	a {
+		@extend .link;
+	}
+	em {
+		font-family: "PTSans-Italic";
+		font-size: em(16px);
+	}
+	figure {
+		text-align: center;
+		img {
+			@media screen and (max-width: 960px) {
+				width: 100%;
+			}
+		}
+	}
+	figcaption {
+		font-family: "PTSans-Italic";
+		font-size: em(13px);
+	}
+	iframe {
+		display: block;
+
+		margin: 15px auto;
+		@media screen and (max-width: 960px) {
+			width: 100%;
+		}
+	}
+	blockquote {
+		position: relative;
+
+		display: flex;
+
+		box-sizing: border-box;
+		min-height: 78px;
+		margin: 15px 0;
+		padding: 15px 35px 15px 70px;
+
+		align-items: center;
+		@extend .icon;
+		@extend .icon-education;
+		justify-content: flex-start;
+		p {
+			margin: 0;
+
+			color: #fff;
+
+			font-size: em(16px);
+		}
+		&:before {
+			position: absolute;
+			top: 23px;
+			left: 20px;
+
+			color: #fff;
+
+			font-size: 32px;
+		}
+		&.info {
+			background: $brown;
+
+			@extend .icon-info;
+		}
+		&.attention {
+			background: $coral;
+
+			@extend .icon-attention;
+		}
+	}
+	table {
+		&.noborder {
+			td {
+				border: 0;
+			}
+		}
+		th {
+			font-size: em(14px);
+			padding: 5px 10px;
+
+			color: #fff;
+			border-right: 1px solid $coral + #111;
+			background-color: $coral;
+		}
+		td {
+			font-size: em(14px);
+			padding: 5px 10px;
+
+			vertical-align: middle;
+
+			border: 1px solid #f4f4f4 - #111;
+			background: #fff;
+		}
+	}
+}

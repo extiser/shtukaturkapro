@@ -1,0 +1,36 @@
+.ask-content {
+	@extend .left-side;
+	@extend .seo-text;
+}
+
+.last-ask {
+	margin-top: 25px;
+	@media screen and (max-width: 640px) {
+		margin-top: 0;
+	}
+	&__title {
+		margin-bottom: 15px;
+
+		@extend .title;
+		@media screen and (max-width: 640px) {
+			text-align: center;
+		}
+	}
+}
+
+.last-ask-item {
+	margin-bottom: 10px;
+	padding: 20px 20px 10px 20px;
+
+	background: #f9f9f9;
+}
+
+.thanks {
+	padding: 20px;
+
+	color: #fff;
+	background-color: $coral;
+
+	font-family: "PTSans-Bold";
+	font-size: em(18px);
+}

@@ -1,0 +1,38 @@
+.last-questions {
+	margin-bottom: 25px;
+	@media screen and (min-width: 660px) and (max-width: 960px) {
+		width: 50%;
+	}
+	&__title {
+		margin-bottom: 15px;
+
+		text-align: center;
+
+		@extend .title;
+	}
+	&__item {
+		position: relative;
+
+		display: block;
+
+		margin-bottom: 10px;
+		padding-left: 20px;
+
+		font-size: em(15px);
+		line-height: em(18px, 15px);
+
+		@extend .icon-question-link;
+		@extend .icon;
+		@extend .link;
+		&:before {
+			position: absolute;
+			top: 4px;
+			left: 0;
+
+			color: #e9e1da;
+			background-color: #615850;
+
+			font-size: 10px;
+		}
+	}
+}

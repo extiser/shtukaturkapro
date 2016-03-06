@@ -1,0 +1,59 @@
+.specialist-list {
+	display: flex;
+
+	margin-top: 25px;
+
+	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	&__title {
+		width: 100%;
+		margin-bottom: 15px;
+
+		@extend .title;
+	}
+}
+
+.specialist-list-item {
+	box-sizing: border-box;
+	width: 31%;
+	height: 298px;
+	padding: 25px;
+
+	text-align: center;
+
+	color: #fff;
+	background: linear-gradient(to bottom, $brown + #222, $brown);
+	@media screen and (max-width: 640px) {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	&__title {
+		margin-bottom: 15px;
+
+		color: #fff;
+	}
+	&__img {
+		margin-bottom: 15px;
+
+		border-radius: 50%;
+		box-shadow: inset 0 0 0 3px $brown + #111;
+		&--adv {
+			opacity: .7;
+		}
+	}
+	&__name {
+		margin-bottom: 5px;
+
+		font-family: "PTSans-Bold";
+	}
+	&__pro {
+		color: #ccc;
+
+		font-family: "PTSans-Italic";
+		font-size: em(14px);
+		a {
+			color: #ccc;
+		}
+	}
+}

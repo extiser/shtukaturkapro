@@ -1,0 +1,140 @@
+// GUI stylies of the project
+// For example, styles of the links, buttons and so on.
+
+.link {
+	text-decoration: underline;
+
+	color: $blue;
+	&:hover {
+		cursor: pointer;
+		text-decoration: none;
+	}
+}
+
+.paragraph {
+	color: #444;
+
+	font-size: em(14px);
+	line-height: em(21px, 14px);
+}
+
+.title {
+	text-transform: uppercase;
+
+	color: $brown;
+
+	font-family: "PTSans-Bold";
+	font-size: em(18px);
+}
+
+.form {
+	display: flex;
+
+	padding: 20px;
+
+	background: #f4f4f4;
+
+	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	&__label {
+		display: block;
+		padding: 5px 0;
+		font-family: 'PTSans-Italic';
+	}
+	&__input {
+		box-sizing: border-box;
+		width: 49%;
+		padding: 8px 10px;
+
+		border: none;
+		box-shadow: inset 0 0 1px #9d9e9e;
+
+		font-size: em(14px);
+		@media screen and (max-width: 640px) {
+			width: 100%;
+			margin-bottom: 15px;
+		}
+		&:focus {
+			outline: none;
+		}
+		&--calculator {
+			width: 100%;
+		}
+		&--select {
+			height: 34px;
+			border-radius: 0;
+			background-color: #fff;
+		}
+	}
+	&__textarea {
+		width: 100%;
+		height: 96px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+
+		@extend .form__input;
+		@media screen and (max-width: 640px) {
+			margin-top: 0;
+		}
+	}
+	&__submit {
+		width: 140px;
+		height: 35px;
+
+		text-align: center;
+
+		color: #f4f4f4;
+		border: 0;
+		background: $coral;
+
+		font-size: em(14px);
+		@media screen and (max-width: 320px) {
+			margin: 10px auto 0;
+		}
+		&:hover {
+			background: $coral - #111;
+		}
+		&--calculator {
+			margin: 20px auto 0;
+		}
+	}
+}
+
+.form-file {
+	@media screen and (max-width: 320px) {
+		margin: auto;
+	}
+	&__btn {
+		position: relative;
+
+		width: 140px;
+		height: 35px;
+
+		text-align: center;
+
+		color: #f4f4f4;
+		background: $brown;
+
+		font-size: em(14px);
+		line-height: 35px;
+		input {
+			position: absolute;
+			top: 0;
+			left: 0;
+
+			width: 140px;
+			height: 35px;
+
+			opacity: 0;
+		}
+	}
+	&__preview {
+		.thumb {
+			height: 75px;
+			margin-top: 10px;
+
+			border: 1px solid #9d9e9e;
+		}
+	}
+}
