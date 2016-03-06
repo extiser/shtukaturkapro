@@ -409,22 +409,22 @@ blockquote {
   font-style: normal;
 }
 
-.link, .seo-text a, .about-content a, .ask-content a, .category-content a, .feedback-content a, .p404-content a, .question-content a, .question-list-content a, .single-content article a, .breadcrumbs__item, .sort__item, .inside-category__item, .last-articles-item__link, .last-questions__item, .calculator-list__item, .popular-articles-item__link, .similar-articles-item__link, .article-contents__item a, .sitemap-content-list__item a {
+.link, .seo-text a, .about-content a, .ask-content a, .category-content a, .feedback-content a, .p404-content a, .question-list-content a, .question-content a, .single-content article a, .sort__item, .inside-category__item, .last-articles-item__link, .breadcrumbs__item, .last-questions__item, .calculator-list__item, .popular-articles-item__link, .similar-articles-item__link, .article-contents__item a, .sitemap-content-list__item a {
   text-decoration: underline;
   color: #3e538c;
 }
 
-.link:hover, .seo-text a:hover, .about-content a:hover, .ask-content a:hover, .category-content a:hover, .feedback-content a:hover, .p404-content a:hover, .question-content a:hover, .question-list-content a:hover, .single-content article a:hover, .breadcrumbs__item:hover, .sort__item:hover, .inside-category__item:hover, .last-articles-item__link:hover, .last-questions__item:hover, .calculator-list__item:hover, .popular-articles-item__link:hover, .similar-articles-item__link:hover, .article-contents__item a:hover, .sitemap-content-list__item a:hover {
+.link:hover, .seo-text a:hover, .about-content a:hover, .ask-content a:hover, .category-content a:hover, .feedback-content a:hover, .p404-content a:hover, .question-list-content a:hover, .question-content a:hover, .single-content article a:hover, .sort__item:hover, .inside-category__item:hover, .last-articles-item__link:hover, .breadcrumbs__item:hover, .last-questions__item:hover, .calculator-list__item:hover, .popular-articles-item__link:hover, .similar-articles-item__link:hover, .article-contents__item a:hover, .sitemap-content-list__item a:hover {
   cursor: pointer;
   text-decoration: none;
 }
 
-.paragraph, .seo-text p, .about-content p, .ask-content p, .category-content p, .feedback-content p, .p404-content p, .question-content p, .question-list-content p, .single-content article p,
-.seo-text ul, .about-content ul, .ask-content ul, .category-content ul, .feedback-content ul, .p404-content ul, .question-content ul, .question-list-content ul, .single-content article ul,
-.seo-text ol, .about-content ol, .ask-content ol, .category-content ol, .feedback-content ol, .p404-content ol, .question-content ol, .question-list-content ol, .single-content article ol, .last-articles-item__text {
+.paragraph, .seo-text p, .about-content p, .ask-content p, .category-content p, .feedback-content p, .p404-content p, .question-list-content p, .question-content p, .single-content article p,
+.seo-text ul, .about-content ul, .ask-content ul, .category-content ul, .feedback-content ul, .p404-content ul, .question-list-content ul, .question-content ul, .single-content article ul,
+.seo-text ol, .about-content ol, .ask-content ol, .category-content ol, .feedback-content ol, .p404-content ol, .question-list-content ol, .question-content ol, .single-content article ol, .last-articles-item__text {
   color: #444;
-  font-size: 0.875em;
-  line-height: 1.5em;
+  font-size: 1em;
+  line-height: 1.3125em;
 }
 
 .title, .last-ask__title, .last-questions__title, .calculator-list__title, .questions__title, .specialist-list__title {
@@ -642,20 +642,20 @@ body.active {
   }
 }
 
-.left-side, .about-content, .ask-content, .category-content, .feedback-content, .main-content, .question-content, .question-list-content, .single-content, .sitemap-content {
+.left-side, .about-content, .ask-content, .category-content, .feedback-content, .main-content, .question-list-content, .question-content, .single-content, .sitemap-content {
   position: relative;
   width: 790px;
   padding: 0 25px;
 }
 
 @media screen and (max-width: 960px) {
-  .left-side, .about-content, .ask-content, .category-content, .feedback-content, .main-content, .question-content, .question-list-content, .single-content, .sitemap-content {
+  .left-side, .about-content, .ask-content, .category-content, .feedback-content, .main-content, .question-list-content, .question-content, .single-content, .sitemap-content {
     width: 100%;
     padding: 0 15px;
   }
 }
 
-.left-side:after, .about-content:after, .ask-content:after, .category-content:after, .feedback-content:after, .main-content:after, .question-content:after, .question-list-content:after, .single-content:after, .sitemap-content:after {
+.left-side:after, .about-content:after, .ask-content:after, .category-content:after, .feedback-content:after, .main-content:after, .question-list-content:after, .question-content:after, .single-content:after, .sitemap-content:after {
   z-index: 0;
   top: -25px;
   right: -66px;
@@ -670,31 +670,31 @@ body.active {
 }
 
 @media screen and (max-width: 960px) {
-  .left-side:after, .about-content:after, .ask-content:after, .category-content:after, .feedback-content:after, .main-content:after, .question-content:after, .question-list-content:after, .single-content:after, .sitemap-content:after {
+  .left-side:after, .about-content:after, .ask-content:after, .category-content:after, .feedback-content:after, .main-content:after, .question-list-content:after, .question-content:after, .single-content:after, .sitemap-content:after {
     display: none;
   }
 }
 
-.seo-text h1, .about-content h1, .ask-content h1, .feedback-content h1, .p404-content h1, .question-content h1, .question-list-content h1, .single-content article h1, .category-content h1,
-.seo-text h2, .about-content h2, .ask-content h2, .category-content h2, .feedback-content h2, .p404-content h2, .question-content h2, .question-list-content h2, .single-content article h2,
-.seo-text h3, .about-content h3, .ask-content h3, .category-content h3, .feedback-content h3, .p404-content h3, .question-content h3, .question-list-content h3, .single-content article h3 {
+.seo-text h1, .about-content h1, .ask-content h1, .feedback-content h1, .p404-content h1, .question-list-content h1, .question-content h1, .single-content article h1, .category-content h1,
+.seo-text h2, .about-content h2, .ask-content h2, .category-content h2, .feedback-content h2, .p404-content h2, .question-list-content h2, .question-content h2, .single-content article h2,
+.seo-text h3, .about-content h3, .ask-content h3, .category-content h3, .feedback-content h3, .p404-content h3, .question-list-content h3, .question-content h3, .single-content article h3 {
   color: #ee6b5b;
   font-family: "PTSans-Bold";
   font-size: 1.5em;
 }
 
-.seo-text h2, .about-content h2, .ask-content h2, .category-content h2, .feedback-content h2, .p404-content h2, .question-content h2, .question-list-content h2, .single-content article h2 {
+.seo-text h2, .about-content h2, .ask-content h2, .category-content h2, .feedback-content h2, .p404-content h2, .question-list-content h2, .question-content h2, .single-content article h2 {
   font-family: "PTSans-Regular";
   font-size: 1.3125em;
 }
 
-.seo-text h3, .about-content h3, .ask-content h3, .category-content h3, .feedback-content h3, .p404-content h3, .question-content h3, .question-list-content h3, .single-content article h3 {
+.seo-text h3, .about-content h3, .ask-content h3, .category-content h3, .feedback-content h3, .p404-content h3, .question-list-content h3, .question-content h3, .single-content article h3 {
   font-family: "PTSans-Regular";
   font-size: 1.125em;
 }
 
-.seo-text ul, .about-content ul, .ask-content ul, .category-content ul, .feedback-content ul, .p404-content ul, .question-content ul, .question-list-content ul, .single-content article ul,
-.seo-text ol, .about-content ol, .ask-content ol, .category-content ol, .feedback-content ol, .p404-content ol, .question-content ol, .question-list-content ol, .single-content article ol {
+.seo-text ul, .about-content ul, .ask-content ul, .category-content ul, .feedback-content ul, .p404-content ul, .question-list-content ul, .question-content ul, .single-content article ul,
+.seo-text ol, .about-content ol, .ask-content ol, .category-content ol, .feedback-content ol, .p404-content ol, .question-list-content ol, .question-content ol, .single-content article ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -702,17 +702,17 @@ body.active {
   text-indent: 0;
 }
 
-.seo-text ul li, .about-content ul li, .ask-content ul li, .category-content ul li, .feedback-content ul li, .p404-content ul li, .question-content ul li, .question-list-content ul li, .single-content article ul li,
-.seo-text ol li, .about-content ol li, .ask-content ol li, .category-content ol li, .feedback-content ol li, .p404-content ol li, .question-content ol li, .question-list-content ol li, .single-content article ol li {
+.seo-text ul li, .about-content ul li, .ask-content ul li, .category-content ul li, .feedback-content ul li, .p404-content ul li, .question-list-content ul li, .question-content ul li, .single-content article ul li,
+.seo-text ol li, .about-content ol li, .ask-content ol li, .category-content ol li, .feedback-content ol li, .p404-content ol li, .question-list-content ol li, .question-content ol li, .single-content article ol li {
   position: relative;
   margin-bottom: 10px;
 }
 
-.seo-text ul li, .about-content ul li, .ask-content ul li, .category-content ul li, .feedback-content ul li, .p404-content ul li, .question-content ul li, .question-list-content ul li, .single-content article ul li {
+.seo-text ul li, .about-content ul li, .ask-content ul li, .category-content ul li, .feedback-content ul li, .p404-content ul li, .question-list-content ul li, .question-content ul li, .single-content article ul li {
   padding-left: 25px;
 }
 
-.seo-text ul li:before, .about-content ul li:before, .ask-content ul li:before, .category-content ul li:before, .feedback-content ul li:before, .p404-content ul li:before, .question-content ul li:before, .question-list-content ul li:before, .single-content article ul li:before {
+.seo-text ul li:before, .about-content ul li:before, .ask-content ul li:before, .category-content ul li:before, .feedback-content ul li:before, .p404-content ul li:before, .question-list-content ul li:before, .question-content ul li:before, .single-content article ul li:before {
   position: absolute;
   top: 3px;
   left: 0;
@@ -720,15 +720,15 @@ body.active {
   font-size: 16px;
 }
 
-.seo-text ol, .about-content ol, .ask-content ol, .category-content ol, .feedback-content ol, .p404-content ol, .question-content ol, .question-list-content ol, .single-content article ol {
+.seo-text ol, .about-content ol, .ask-content ol, .category-content ol, .feedback-content ol, .p404-content ol, .question-list-content ol, .question-content ol, .single-content article ol {
   counter-reset: point;
 }
 
-.seo-text ol li, .about-content ol li, .ask-content ol li, .category-content ol li, .feedback-content ol li, .p404-content ol li, .question-content ol li, .question-list-content ol li, .single-content article ol li {
+.seo-text ol li, .about-content ol li, .ask-content ol li, .category-content ol li, .feedback-content ol li, .p404-content ol li, .question-list-content ol li, .question-content ol li, .single-content article ol li {
   padding-left: 25px;
 }
 
-.seo-text ol li:before, .about-content ol li:before, .ask-content ol li:before, .category-content ol li:before, .feedback-content ol li:before, .p404-content ol li:before, .question-content ol li:before, .question-list-content ol li:before, .single-content article ol li:before {
+.seo-text ol li:before, .about-content ol li:before, .ask-content ol li:before, .category-content ol li:before, .feedback-content ol li:before, .p404-content ol li:before, .question-list-content ol li:before, .question-content ol li:before, .single-content article ol li:before {
   position: absolute;
   top: 3px;
   left: 0;
@@ -745,38 +745,38 @@ body.active {
   line-height: 18px;
 }
 
-.seo-text em, .about-content em, .ask-content em, .category-content em, .feedback-content em, .p404-content em, .question-content em, .question-list-content em, .single-content article em {
+.seo-text em, .about-content em, .ask-content em, .category-content em, .feedback-content em, .p404-content em, .question-list-content em, .question-content em, .single-content article em {
   font-family: "PTSans-Italic";
   font-size: 1em;
 }
 
-.seo-text figure, .about-content figure, .ask-content figure, .category-content figure, .feedback-content figure, .p404-content figure, .question-content figure, .question-list-content figure, .single-content article figure {
+.seo-text figure, .about-content figure, .ask-content figure, .category-content figure, .feedback-content figure, .p404-content figure, .question-list-content figure, .question-content figure, .single-content article figure {
   text-align: center;
 }
 
 @media screen and (max-width: 960px) {
-  .seo-text figure img, .about-content figure img, .ask-content figure img, .category-content figure img, .feedback-content figure img, .p404-content figure img, .question-content figure img, .question-list-content figure img, .single-content article figure img {
+  .seo-text figure img, .about-content figure img, .ask-content figure img, .category-content figure img, .feedback-content figure img, .p404-content figure img, .question-list-content figure img, .question-content figure img, .single-content article figure img {
     width: 100%;
   }
 }
 
-.seo-text figcaption, .about-content figcaption, .ask-content figcaption, .category-content figcaption, .feedback-content figcaption, .p404-content figcaption, .question-content figcaption, .question-list-content figcaption, .single-content article figcaption {
+.seo-text figcaption, .about-content figcaption, .ask-content figcaption, .category-content figcaption, .feedback-content figcaption, .p404-content figcaption, .question-list-content figcaption, .question-content figcaption, .single-content article figcaption {
   font-family: "PTSans-Italic";
   font-size: 0.8125em;
 }
 
-.seo-text iframe, .about-content iframe, .ask-content iframe, .category-content iframe, .feedback-content iframe, .p404-content iframe, .question-content iframe, .question-list-content iframe, .single-content article iframe {
+.seo-text iframe, .about-content iframe, .ask-content iframe, .category-content iframe, .feedback-content iframe, .p404-content iframe, .question-list-content iframe, .question-content iframe, .single-content article iframe {
   display: block;
   margin: 15px auto;
 }
 
 @media screen and (max-width: 960px) {
-  .seo-text iframe, .about-content iframe, .ask-content iframe, .category-content iframe, .feedback-content iframe, .p404-content iframe, .question-content iframe, .question-list-content iframe, .single-content article iframe {
+  .seo-text iframe, .about-content iframe, .ask-content iframe, .category-content iframe, .feedback-content iframe, .p404-content iframe, .question-list-content iframe, .question-content iframe, .single-content article iframe {
     width: 100%;
   }
 }
 
-.seo-text blockquote, .about-content blockquote, .ask-content blockquote, .category-content blockquote, .feedback-content blockquote, .p404-content blockquote, .question-content blockquote, .question-list-content blockquote, .single-content article blockquote {
+.seo-text blockquote, .about-content blockquote, .ask-content blockquote, .category-content blockquote, .feedback-content blockquote, .p404-content blockquote, .question-list-content blockquote, .question-content blockquote, .single-content article blockquote {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -796,13 +796,13 @@ body.active {
           justify-content: flex-start;
 }
 
-.seo-text blockquote p, .about-content blockquote p, .ask-content blockquote p, .category-content blockquote p, .feedback-content blockquote p, .p404-content blockquote p, .question-content blockquote p, .question-list-content blockquote p, .single-content article blockquote p {
+.seo-text blockquote p, .about-content blockquote p, .ask-content blockquote p, .category-content blockquote p, .feedback-content blockquote p, .p404-content blockquote p, .question-list-content blockquote p, .question-content blockquote p, .single-content article blockquote p {
   margin: 0;
   color: #fff;
   font-size: 1em;
 }
 
-.seo-text blockquote:before, .about-content blockquote:before, .ask-content blockquote:before, .category-content blockquote:before, .feedback-content blockquote:before, .p404-content blockquote:before, .question-content blockquote:before, .question-list-content blockquote:before, .single-content article blockquote:before {
+.seo-text blockquote:before, .about-content blockquote:before, .ask-content blockquote:before, .category-content blockquote:before, .feedback-content blockquote:before, .p404-content blockquote:before, .question-list-content blockquote:before, .question-content blockquote:before, .single-content article blockquote:before {
   position: absolute;
   top: 23px;
   left: 20px;
@@ -810,19 +810,19 @@ body.active {
   font-size: 32px;
 }
 
-.seo-text blockquote.info, .about-content blockquote.info, .ask-content blockquote.info, .category-content blockquote.info, .feedback-content blockquote.info, .p404-content blockquote.info, .question-content blockquote.info, .question-list-content blockquote.info, .single-content article blockquote.info {
+.seo-text blockquote.info, .about-content blockquote.info, .ask-content blockquote.info, .category-content blockquote.info, .feedback-content blockquote.info, .p404-content blockquote.info, .question-list-content blockquote.info, .question-content blockquote.info, .single-content article blockquote.info {
   background: #71575a;
 }
 
-.seo-text blockquote.attention, .about-content blockquote.attention, .ask-content blockquote.attention, .category-content blockquote.attention, .feedback-content blockquote.attention, .p404-content blockquote.attention, .question-content blockquote.attention, .question-list-content blockquote.attention, .single-content article blockquote.attention {
+.seo-text blockquote.attention, .about-content blockquote.attention, .ask-content blockquote.attention, .category-content blockquote.attention, .feedback-content blockquote.attention, .p404-content blockquote.attention, .question-list-content blockquote.attention, .question-content blockquote.attention, .single-content article blockquote.attention {
   background: #ee6b5b;
 }
 
-.seo-text table.noborder td, .about-content table.noborder td, .ask-content table.noborder td, .category-content table.noborder td, .feedback-content table.noborder td, .p404-content table.noborder td, .question-content table.noborder td, .question-list-content table.noborder td, .single-content article table.noborder td {
+.seo-text table.noborder td, .about-content table.noborder td, .ask-content table.noborder td, .category-content table.noborder td, .feedback-content table.noborder td, .p404-content table.noborder td, .question-list-content table.noborder td, .question-content table.noborder td, .single-content article table.noborder td {
   border: 0;
 }
 
-.seo-text table th, .about-content table th, .ask-content table th, .category-content table th, .feedback-content table th, .p404-content table th, .question-content table th, .question-list-content table th, .single-content article table th {
+.seo-text table th, .about-content table th, .ask-content table th, .category-content table th, .feedback-content table th, .p404-content table th, .question-list-content table th, .question-content table th, .single-content article table th {
   font-size: 0.875em;
   padding: 5px 10px;
   color: #fff;
@@ -830,7 +830,7 @@ body.active {
   background-color: #ee6b5b;
 }
 
-.seo-text table td, .about-content table td, .ask-content table td, .category-content table td, .feedback-content table td, .p404-content table td, .question-content table td, .question-list-content table td, .single-content article table td {
+.seo-text table td, .about-content table td, .ask-content table td, .category-content table td, .feedback-content table td, .p404-content table td, .question-list-content table td, .question-content table td, .single-content article table td {
   font-size: 0.875em;
   padding: 5px 10px;
   vertical-align: middle;
@@ -890,41 +890,6 @@ body.active {
   .banner-sidebar {
     display: none;
   }
-}
-
-.breadcrumbs__item {
-  position: relative;
-  padding-left: 15px;
-  font-size: 0.75em;
-}
-
-.breadcrumbs__item:before {
-  position: absolute;
-  top: 6px;
-  left: 5px;
-  color: #999;
-  font-size: 5px;
-}
-
-.breadcrumbs__item--home {
-  padding-left: 0;
-}
-
-.breadcrumbs__item--home:before {
-  display: none;
-}
-
-.breadcrumbs__item--current {
-  text-decoration: none;
-  color: #444;
-}
-
-.breadcrumbs__item--current:hover {
-  cursor: default;
-}
-
-.calculator-list {
-  margin-top: 25px;
 }
 
 .calculator-plaster {
@@ -1073,19 +1038,6 @@ body.active {
   font-size: 10px;
 }
 
-.comments {
-  margin-top: 25px;
-}
-
-.comments__title {
-  width: 100%;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  color: #ee6b5b;
-  font-family: "PTSans-Bold";
-  font-size: 1.125em;
-}
-
 @media screen and (max-width: 960px) {
   .feedback-content {
     margin-bottom: 20px;
@@ -1209,6 +1161,19 @@ body.active {
   .footer-counters {
     display: none;
   }
+}
+
+.comments {
+  margin-top: 25px;
+}
+
+.comments__title {
+  width: 100%;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #ee6b5b;
+  font-family: "PTSans-Bold";
+  font-size: 1.125em;
 }
 
 .header {
@@ -1361,6 +1326,37 @@ body.active {
     margin-top: 5px;
     margin-left: 0;
   }
+}
+
+.breadcrumbs__item {
+  position: relative;
+  padding-left: 15px;
+  font-size: 0.75em;
+}
+
+.breadcrumbs__item:before {
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  color: #999;
+  font-size: 5px;
+}
+
+.breadcrumbs__item--home {
+  padding-left: 0;
+}
+
+.breadcrumbs__item--home:before {
+  display: none;
+}
+
+.breadcrumbs__item--current {
+  text-decoration: none;
+  color: #444;
+}
+
+.breadcrumbs__item--current:hover {
+  cursor: default;
 }
 
 .last-questions {
@@ -1526,126 +1522,6 @@ body.active {
   right: -20px;
 }
 
-.popular-articles {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.popular-articles-item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 30%;
-  margin-bottom: 20px;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-.popular-articles-item:before, .popular-articles-item:after {
-  display: table;
-  content: "";
-}
-
-.popular-articles-item:after {
-  clear: both;
-}
-
-.lt-ie8 .popular-articles-item {
-  zoom: 1;
-}
-
-@media screen and (max-width: 1024px) {
-  .popular-articles-item {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .popular-articles-item {
-    width: 50%;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-                -ms-grid-row-align: center;
-            align-items: center;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .popular-articles-item {
-    width: 100%;
-  }
-}
-
-.popular-articles-item__img {
-  width: 82px;
-  height: 82px;
-  margin-right: 15px;
-}
-
-.popular-articles-item__content {
-  width: 60%;
-}
-
-@media screen and (max-width: 480px) {
-  .popular-articles-item__content {
-    width: 80%;
-  }
-}
-
-.popular-articles-item__link {
-  display: block;
-  margin-bottom: 5px;
-  font-size: 0.875em;
-  line-height: 1.28571em;
-}
-
-.popular-articles-item__category, .last-articles-item__category {
-  display: inline;
-  padding: 3px 5px;
-  color: #fff;
-  background: #b59b9e;
-  font-family: "PTSans-Italic";
-  font-size: 0.625em;
-}
-
-.question-content-specialist {
-  float: left;
-  width: 230px;
-  margin-top: 15px;
-  margin-right: 20px;
-  margin-bottom: 15px;
-}
-
-@media screen and (max-width: 420px) {
-  .question-content-specialist {
-    float: none;
-    margin: auto;
-  }
-}
-
-.question-content-specialist .specialist-list-item {
-  width: 100%;
-}
-
 @media screen and (max-width: 960px) {
   .question-list-content {
     box-sizing: border-box;
@@ -1788,6 +1664,25 @@ body.active {
 .question-list-noquestion__link:hover {
   color: #ee6b5b !important;
   background: #fff;
+}
+
+.question-content-specialist {
+  float: left;
+  width: 230px;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 420px) {
+  .question-content-specialist {
+    float: none;
+    margin: auto;
+  }
+}
+
+.question-content-specialist .specialist-list-item {
+  width: 100%;
 }
 
 .questions {
@@ -1981,6 +1876,111 @@ body.active {
 #ya-site-form0 .ya-site-form__form .ya-site-form__input-text {
   padding-left: 10px;
   font-style: normal !important;
+}
+
+.popular-articles {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.popular-articles-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-bottom: 20px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.popular-articles-item:before, .popular-articles-item:after {
+  display: table;
+  content: "";
+}
+
+.popular-articles-item:after {
+  clear: both;
+}
+
+.lt-ie8 .popular-articles-item {
+  zoom: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .popular-articles-item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .popular-articles-item {
+    width: 50%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+                -ms-grid-row-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .popular-articles-item {
+    width: 100%;
+  }
+}
+
+.popular-articles-item__img {
+  width: 82px;
+  height: 82px;
+  margin-right: 15px;
+}
+
+.popular-articles-item__content {
+  width: 60%;
+}
+
+@media screen and (max-width: 480px) {
+  .popular-articles-item__content {
+    width: 80%;
+  }
+}
+
+.popular-articles-item__link {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.875em;
+  line-height: 1.28571em;
+}
+
+.popular-articles-item__category, .last-articles-item__category {
+  display: inline;
+  padding: 3px 5px;
+  color: #fff;
+  background: #b59b9e;
+  font-family: "PTSans-Italic";
+  font-size: 0.625em;
+}
+
+.calculator-list {
+  margin-top: 25px;
 }
 
 .sidebar {
@@ -2491,7 +2491,7 @@ body.active {
   color: #feda00;
 }
 
-.icon:before, .seo-text ul li:before, .about-content ul li:before, .ask-content ul li:before, .category-content ul li:before, .feedback-content ul li:before, .p404-content ul li:before, .question-content ul li:before, .question-list-content ul li:before, .single-content article ul li:before, .seo-text blockquote:before, .about-content blockquote:before, .ask-content blockquote:before, .category-content blockquote:before, .feedback-content blockquote:before, .p404-content blockquote:before, .question-content blockquote:before, .question-list-content blockquote:before, .single-content article blockquote:before, .breadcrumbs__item:before, .sort__item.asc:before, .sort__item.desc:before, .inside-category__item:before, .last-articles-item__content:before, .last-questions__item:before, .calculator-list__item:before, .pagination__item--prev:before, .pagination__item--next:before, .questions:before, .questions__btn:before, .search__mobile:before, .article-contents__item:before, .sitemap-content-list__item:before, .top-menu__mobile:before, .top-menu__item--drop:before,
+.icon:before, .seo-text ul li:before, .about-content ul li:before, .ask-content ul li:before, .category-content ul li:before, .feedback-content ul li:before, .p404-content ul li:before, .question-list-content ul li:before, .question-content ul li:before, .single-content article ul li:before, .seo-text blockquote:before, .about-content blockquote:before, .ask-content blockquote:before, .category-content blockquote:before, .feedback-content blockquote:before, .p404-content blockquote:before, .question-list-content blockquote:before, .question-content blockquote:before, .single-content article blockquote:before, .sort__item.asc:before, .sort__item.desc:before, .inside-category__item:before, .last-articles-item__content:before, .breadcrumbs__item:before, .last-questions__item:before, .calculator-list__item:before, .pagination__item--prev:before, .pagination__item--next:before, .questions:before, .questions__btn:before, .search__mobile:before, .article-contents__item:before, .sitemap-content-list__item:before, .top-menu__mobile:before, .top-menu__item--drop:before,
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   text-transform: none !important;
@@ -2505,7 +2505,7 @@ body.active {
   speak: none;
 }
 
-.icon-check:before, .seo-text ul li:before, .about-content ul li:before, .ask-content ul li:before, .category-content ul li:before, .feedback-content ul li:before, .p404-content ul li:before, .question-content ul li:before, .question-list-content ul li:before, .single-content article ul li:before {
+.icon-check:before, .seo-text ul li:before, .about-content ul li:before, .ask-content ul li:before, .category-content ul li:before, .feedback-content ul li:before, .p404-content ul li:before, .question-list-content ul li:before, .question-content ul li:before, .single-content article ul li:before {
   content: "\61";
 }
 
@@ -2517,7 +2517,7 @@ body.active {
   content: "\63";
 }
 
-.icon-education:before, .seo-text blockquote:before, .about-content blockquote:before, .ask-content blockquote:before, .category-content blockquote:before, .feedback-content blockquote:before, .p404-content blockquote:before, .question-content blockquote:before, .question-list-content blockquote:before, .single-content article blockquote:before {
+.icon-education:before, .seo-text blockquote:before, .about-content blockquote:before, .ask-content blockquote:before, .category-content blockquote:before, .feedback-content blockquote:before, .p404-content blockquote:before, .question-list-content blockquote:before, .question-content blockquote:before, .single-content article blockquote:before {
   content: "\64";
 }
 
@@ -2573,10 +2573,10 @@ body.active {
   content: "\70";
 }
 
-.icon-attention:before, .seo-text blockquote.attention:before, .about-content blockquote.attention:before, .ask-content blockquote.attention:before, .category-content blockquote.attention:before, .feedback-content blockquote.attention:before, .p404-content blockquote.attention:before, .question-content blockquote.attention:before, .question-list-content blockquote.attention:before, .single-content article blockquote.attention:before {
+.icon-attention:before, .seo-text blockquote.attention:before, .about-content blockquote.attention:before, .ask-content blockquote.attention:before, .category-content blockquote.attention:before, .feedback-content blockquote.attention:before, .p404-content blockquote.attention:before, .question-list-content blockquote.attention:before, .question-content blockquote.attention:before, .single-content article blockquote.attention:before {
   content: "\72";
 }
 
-.icon-info:before, .seo-text blockquote.info:before, .about-content blockquote.info:before, .ask-content blockquote.info:before, .category-content blockquote.info:before, .feedback-content blockquote.info:before, .p404-content blockquote.info:before, .question-content blockquote.info:before, .question-list-content blockquote.info:before, .single-content article blockquote.info:before {
+.icon-info:before, .seo-text blockquote.info:before, .about-content blockquote.info:before, .ask-content blockquote.info:before, .category-content blockquote.info:before, .feedback-content blockquote.info:before, .p404-content blockquote.info:before, .question-list-content blockquote.info:before, .question-content blockquote.info:before, .single-content article blockquote.info:before {
   content: "\73";
 }
