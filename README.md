@@ -1,2 +1,0 @@
-# shtukaturkapro
-Shtukaturkapro.ru

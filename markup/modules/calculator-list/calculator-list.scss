@@ -1,9 +1,0 @@
-.calculator-list {
-	margin-top: 25px;
-	&__title {
-		@extend .last-questions__title;
-	}
-	&__item {
-		@extend .last-questions__item;
-	}
-}
